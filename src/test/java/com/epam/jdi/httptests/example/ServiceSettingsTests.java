@@ -32,6 +32,7 @@ public class ServiceSettingsTests {
     private ObjectMapper objectMapper;
     private RequestSpecification requestSpecification;
 
+    //Setup error handler for processing unexpected responses
     @BeforeClass
     public void initErrorHandler() {
         errorHandler = new ErrorHandler() {
@@ -48,6 +49,7 @@ public class ServiceSettingsTests {
         };
     }
 
+    //Setup object mapper for custom serialization/deserialization responses from/to objects
     @BeforeClass
     public void initObjectMapper() {
         objectMapper = new Jackson2Mapper(new Jackson2ObjectMapperFactory() {
@@ -60,6 +62,7 @@ public class ServiceSettingsTests {
         });
     }
 
+    //Setup request settings which will send for all requests
     @BeforeClass
     public void initRequestSpecification() {
         requestSpecification = given().filter(new AllureRestAssured());
