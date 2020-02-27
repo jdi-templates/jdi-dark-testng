@@ -1,4 +1,4 @@
-package com.epam.jdi.httptests;
+package com.epam.jdi.httptests.example;
 
 import com.epam.http.response.RestResponse;
 import org.testng.annotations.BeforeClass;

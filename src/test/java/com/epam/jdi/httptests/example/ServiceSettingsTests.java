@@ -1,10 +1,10 @@
-package com.epam.jdi.httptests;
+package com.epam.jdi.httptests.example;
 
 import com.epam.http.requests.ServiceSettings;
 import com.epam.http.requests.errorhandler.ErrorHandler;
 import com.epam.http.response.ResponseStatusType;
 import com.epam.http.response.RestResponse;
-import com.epam.jdi.dto.Organization;
+import com.epam.jdi.httptests.example.dto.Organization;
 import com.epam.jdi.httptests.utils.TrelloDataGenerator;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import io.qameta.allure.restassured.AllureRestAssured;

@@ -1,9 +1,9 @@
 package com.epam.jdi.httptests.utils;
 
-import com.epam.jdi.dto.Board;
-import com.epam.jdi.dto.Card;
-import com.epam.jdi.dto.Organization;
-import com.epam.jdi.dto.TrelloList;
+import com.epam.jdi.httptests.example.dto.Board;
+import com.epam.jdi.httptests.example.dto.Card;
+import com.epam.jdi.httptests.example.dto.Organization;
+import com.epam.jdi.httptests.example.dto.TrelloList;
 
 import java.util.Random;
 

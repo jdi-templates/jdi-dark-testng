@@ -1,4 +1,4 @@
-package com.epam.jdi.httptests;
+package com.epam.jdi.httptests.example;
 
 import com.epam.http.requests.RestMethod;
 import com.epam.http.annotations.Header;

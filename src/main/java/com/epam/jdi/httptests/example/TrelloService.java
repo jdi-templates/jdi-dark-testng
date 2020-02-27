@@ -1,4 +1,4 @@
-package com.epam.jdi.httptests;
+package com.epam.jdi.httptests.example;
 
 import com.epam.http.annotations.ContentType;
 import com.epam.http.annotations.DELETE;
@@ -8,10 +8,10 @@ import com.epam.http.annotations.QueryParameter;
 import com.epam.http.annotations.QueryParameters;
 import com.epam.http.annotations.ServiceDomain;
 import com.epam.http.requests.RestMethod;
-import com.epam.jdi.dto.Board;
-import com.epam.jdi.dto.Card;
-import com.epam.jdi.dto.Organization;
-import com.epam.jdi.dto.TrelloList;
+import com.epam.jdi.httptests.example.dto.Board;
+import com.epam.jdi.httptests.example.dto.Card;
+import com.epam.jdi.httptests.example.dto.Organization;
+import com.epam.jdi.httptests.example.dto.TrelloList;
 
 import java.util.Arrays;
 import java.util.List;

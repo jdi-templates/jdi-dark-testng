@@ -1,4 +1,4 @@
-package com.epam.jdi.httptests;
+package com.epam.jdi.httptests.example;
 
 /**
  * Created by Roman_Iovlev on 11/3/2017.

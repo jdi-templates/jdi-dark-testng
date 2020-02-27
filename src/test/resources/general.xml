@@ -3,9 +3,9 @@
 <suite name="Test suite" parallel="methods" thread-count="1">
     <test name="Tests" preserve-order="true">
         <classes>
-            <class name="com.epam.jdi.httptests.ServiceTests"/>
-            <class name="com.epam.jdi.httptests.TrelloTests"/>
-            <class name="com.epam.jdi.httptests.ServiceSettingsTests"/>
+            <class name="com.epam.jdi.httptests.example.ServiceTests"/>
+            <class name="com.epam.jdi.httptests.example.TrelloTests"/>
+            <class name="com.epam.jdi.httptests.example.ServiceSettingsTests"/>
         </classes>
     </test>
 </suite>
