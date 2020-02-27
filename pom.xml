@@ -7,7 +7,7 @@
     <groupId>com.epam.jdi</groupId>
     <version>1.0.1</version>
     <artifactId>jdi-dark-template</artifactId>
-    <name>JDI Dark Tests</name>
+    <name>JDI Dark tests template for TestNG</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -87,6 +87,9 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.1</version>
                 <configuration>
+                    <systemPropertyVariables>
+                        <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
+                    </systemPropertyVariables>
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/general.xml</suiteXmlFile>
                     </suiteXmlFiles>
