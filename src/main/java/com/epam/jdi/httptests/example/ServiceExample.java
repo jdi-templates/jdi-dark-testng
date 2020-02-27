@@ -12,12 +12,13 @@ import com.epam.http.annotations.DELETE;
 import com.epam.http.annotations.ContentType;
 import com.epam.http.annotations.Cookies;
 import com.epam.http.annotations.Cookie;
+import com.epam.jdi.httptests.example.dto.Info;
 
 import static io.restassured.http.ContentType.HTML;
 import static io.restassured.http.ContentType.JSON;
 
 /**
- * Created by Roman_Iovlev on 9/25/2016.
+ * Example of simple service with several types of endpoints
  */
 @ServiceDomain("https://httpbin.org/")
 public class ServiceExample {

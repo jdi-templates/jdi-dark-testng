@@ -1,10 +1,7 @@
-package com.epam.jdi.httptests.example;
+package com.epam.jdi.httptests.example.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-/**
- * Created by Roman_Iovlev on 11/3/2017.
- */
 public class IdName {
     public String Accept;
 

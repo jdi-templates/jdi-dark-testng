@@ -19,6 +19,9 @@ import java.util.List;
 import static com.epam.http.requests.RequestData.requestPathParams;
 import static io.restassured.http.ContentType.JSON;
 
+/**
+ * Example of service for working with Trello API (Service for Project Dashboard creating)
+ */
 @ServiceDomain("${trello}")
 @QueryParameters({
         @QueryParameter(name = "key", value = "3445103a21ddca2619eaceb0e833d0db"),
