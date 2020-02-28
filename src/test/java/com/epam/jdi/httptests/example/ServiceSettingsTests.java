@@ -8,6 +8,8 @@ import com.epam.jdi.httptests.example.dto.Organization;
 import com.epam.jdi.httptests.utils.TrelloDataGenerator;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import io.qameta.allure.restassured.AllureRestAssured;
+import io.restassured.authentication.AuthenticationScheme;
+import io.restassured.authentication.BasicAuthScheme;
 import io.restassured.internal.mapping.Jackson2Mapper;
 import io.restassured.mapper.ObjectMapper;
 import io.restassured.path.json.mapper.factory.Jackson2ObjectMapperFactory;
@@ -31,6 +33,7 @@ public class ServiceSettingsTests {
     private ErrorHandler errorHandler;
     private ObjectMapper objectMapper;
     private RequestSpecification requestSpecification;
+    private BasicAuthScheme authenticationScheme;
 
     //Setup error handler for processing unexpected responses
     @BeforeClass
@@ -66,15 +69,24 @@ public class ServiceSettingsTests {
     @BeforeClass
     public void initRequestSpecification() {
         requestSpecification = given().filter(new AllureRestAssured());
-        requestSpecification.auth().basic("user", "password");
+        requestSpecification.header("Header1", "Value1");
     }
 
-    @BeforeClass(dependsOnMethods = {"initErrorHandler", "initObjectMapper", "initErrorHandler"})
+    //Setup authorization scheme
+    @BeforeClass
+    public void initAuthScheme() {
+        authenticationScheme = new BasicAuthScheme();
+        authenticationScheme.setUserName("user");
+        authenticationScheme.setPassword("password");
+    }
+
+    @BeforeClass(dependsOnMethods = {"initErrorHandler", "initObjectMapper", "initErrorHandler", "initAuthScheme"})
     public void initService() {
         serviceSettings = ServiceSettings.builder()
                 .errorHandler(errorHandler)
                 .objectMapper(objectMapper)
                 .requestSpecification(requestSpecification)
+                .authenticationScheme(authenticationScheme)
                 .build();
         init(TrelloService.class, serviceSettings);
     }
