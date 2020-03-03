@@ -20,8 +20,8 @@ https://pix.my/SXy52C
 
 5. Reporting: After running tests run **allure:serve** in maven plugins
 https://pix.my/meAto8
-or **allureReport** in gradle task
-https://pix.my/SdUwPF
+or **allureServe** in gradle task
+https://pix.my/6FXX7l
 
 6. Use as template for your project: 
 * just remove all content from **src/main/.../example** folder, add your package you Service Objects
