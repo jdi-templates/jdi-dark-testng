@@ -10,10 +10,10 @@ Can be found [here](https://jdi-docs.github.io/jdi-dark)
 ## Instruction:
 1. Download template and unpack in appropriate folder
 
-2. Open project in IDE (for example IntelliJIdea)
+2. Open project in IDE (for example IntelliJIdea) by selecting **pom.xml** or **build.gradle**
 
-3. For running demo test just use "mvn clean install" command
-https://pix.my/DXyEcI
+3. For running demo test just use "mvn clean install" command for maven or "gradlew clean build" for Gradle
+
 or run via IDE by click on "example" folder in src/test and select "Run tests"
 https://pix.my/KN34uk
 
@@ -22,6 +22,8 @@ https://pix.my/SXy52C
 
 5. Reporting: After running tests run **allure:serve** in maven plugins
 https://pix.my/meAto8
+or **allureReport** in gradle task
+https://pix.my/SdUwPF
 
 6. Use as template for your project: 
 * just remove all content from **src/main/.../example** folder, add your package you Service Objects
