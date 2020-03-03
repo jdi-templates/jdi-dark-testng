@@ -30,11 +30,18 @@ allure {
 dependencies {
     implementation("org.testng:testng:6.11")
 	compile("com.epam.jdi:jdi-dark:1.0.1")
-    compile("org.slf4j:slf4j-nop:1.7.13")
+//    compile("org.slf4j:slf4j-nop:1.7.13")
 }
 
 test {
+    testLogging.showStandardStreams = true
     useTestNG() {
         suites("src/test/resources/general.xml")
     }
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    jcenter()
 }
