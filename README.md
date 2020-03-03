@@ -12,9 +12,7 @@ Can be found [here](https://jdi-docs.github.io/jdi-dark)
 
 2. Open project in IDE (for example IntelliJIdea) by selecting **pom.xml** or **build.gradle**
 
-3. For running demo test just use "mvn clean install" command for maven or "gradlew clean build" for Gradle
-
-or run via IDE by click on "example" folder in src/test and select "Run tests"
+3. For running demo test just use "mvn clean install" command for maven or "gradlew clean build" for Gradle or run via IDE by click on "example" folder in src/test and select "Run tests"
 https://pix.my/KN34uk
 
 4. Logs: Observe test run results in Console log
