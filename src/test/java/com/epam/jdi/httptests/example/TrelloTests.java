@@ -13,6 +13,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import static com.epam.http.requests.ServiceInit.init;
+import static com.epam.jdi.tools.LinqUtils.map;
+import static org.testng.Assert.assertTrue;
 
 /**
  * Example of creating business flow tests
@@ -30,8 +32,8 @@ public class TrelloTests {
         //Crate board
         Board board = TrelloDataGenerator.generateBoard();
         Board createdBoard = TrelloService.createBoard(board);
-        Board gotBoard = TrelloService.getBoard(createdBoard.getId());
-        Assert.assertEquals(gotBoard.getName(), createdBoard.getName(), "Name of created board is incorrect");
+        Board gotBoard = TrelloService.getBoard(createdBoard.id);
+        Assert.assertEquals(gotBoard.name, createdBoard.name, "Name of created board is incorrect");
 
         //Create list
         TrelloList tList = TrelloDataGenerator.generateList(createdBoard);
@@ -42,8 +44,8 @@ public class TrelloTests {
         Card createdCard = TrelloService.addNewCardToBoard(card);
 
         //Check that card was added
-        Board cardBoard = TrelloService.getCardBoard(createdCard.getId());
-        Assert.assertEquals(cardBoard.getName(), board.getName(), "Card wasn't added to board");
+        Board cardBoard = TrelloService.getCardBoard(createdCard.id);
+        Assert.assertEquals(cardBoard.name, board.name, "Card wasn't added to board");
     }
 
     @Test
@@ -55,12 +57,12 @@ public class TrelloTests {
 
         //Crate board
         Board board = TrelloDataGenerator.generateBoard();
-        board.setIdOrganization(createOrg.getId());
+        board.idOrganization = createOrg.id;
         TrelloService.createBoard(board);
 
         //Check that organization contains created board
         List<Board> boards = TrelloService.getOrganizationBoards(createOrg);
-        Assert.assertTrue(boards.stream().map(Board::getName).collect(Collectors.toList()).contains(board.getName()), "Board wasn't added to organization");
+        assertTrue(map(boards, b -> b.name).contains(board.name), "Board wasn't added to organization");
 
     }
 }
