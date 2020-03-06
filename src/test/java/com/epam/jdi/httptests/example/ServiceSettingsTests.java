@@ -96,8 +96,8 @@ public class ServiceSettingsTests {
 
         //Create organization
         Organization organization = TrelloDataGenerator.generateOrganization();
-        organization.setName(null);
-        organization.setDisplayName(null);
+        organization.name = null;
+        organization.displayName = null;
         //this endpoint causes 400 error
         TrelloService.createOrganization(organization);
     }

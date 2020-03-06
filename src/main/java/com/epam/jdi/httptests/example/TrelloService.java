@@ -1,23 +1,14 @@
 package com.epam.jdi.httptests.example;
 
-import com.epam.http.annotations.ContentType;
-import com.epam.http.annotations.DELETE;
-import com.epam.http.annotations.GET;
-import com.epam.http.annotations.POST;
-import com.epam.http.annotations.QueryParameter;
-import com.epam.http.annotations.QueryParameters;
-import com.epam.http.annotations.ServiceDomain;
+import com.epam.http.annotations.*;
+import com.epam.http.requests.DataMethod;
 import com.epam.http.requests.RestMethod;
-import com.epam.jdi.httptests.example.dto.Board;
-import com.epam.jdi.httptests.example.dto.Card;
-import com.epam.jdi.httptests.example.dto.Organization;
-import com.epam.jdi.httptests.example.dto.TrelloList;
-import io.qameta.allure.Step;
+import com.epam.jdi.httptests.example.dto.*;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static com.epam.http.requests.RequestData.requestPathParams;
+import static com.epam.http.requests.RequestDataInfo.requestPathParams;
 import static io.restassured.http.ContentType.JSON;
 
 /**
@@ -38,10 +29,10 @@ public class TrelloService {
 
     @ContentType(JSON)
     @POST(BOARDS)
-    public static RestMethod boardsPost;
+    public static DataMethod<Board> boardsPost;
 
     public static Board createBoard(Board board) {
-        return boardsPost.post(board, Board.class);
+        return boardsPost.callObject(board);
     }
 
     @ContentType(JSON)
@@ -118,7 +109,7 @@ public class TrelloService {
     public static RestMethod getOrganizationBoards;
 
     public static List<Board> getOrganizationBoards(Organization organization) {
-        return Arrays.asList(getOrganizationBoards.call(requestPathParams("id", organization.getId())).getRaResponse().as(Board[].class));
+        return Arrays.asList(getOrganizationBoards.call(requestPathParams("id", organization.id)).getRaResponse().as(Board[].class));
     }
 
 }
