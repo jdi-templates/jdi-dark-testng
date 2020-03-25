@@ -33,6 +33,13 @@ dependencies {
     compile("org.slf4j:slf4j-nop:1.7.13")
 }
 
+def env = System.getenv("BUILD_PROFILE")
+processTestResources {
+    expand([
+            profile: env == null ? '${profile}' : env
+    ])
+}
+
 test {
     testLogging.showStandardStreams = true
     useTestNG() {
