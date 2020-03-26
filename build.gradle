@@ -29,11 +29,12 @@ allure {
 
 dependencies {
     implementation("org.testng:testng:6.11")
-	compile("com.epam.jdi:jdi-dark:1.0.3")
+    compile("com.epam.jdi:jdi-dark:1.0.3")
     compile("org.slf4j:slf4j-nop:1.7.13")
 }
 
-def env = System.getenv("BUILD_PROFILE")
+def env = project.hasProperty("BUILD_PROFILE") ? project.getProperty("BUILD_PROFILE") :
+        System.getProperty("BUILD_PROFILE") ? System.getProperty("BUILD_PROFILE") : System.getenv("BUILD_PROFILE")
 processTestResources {
     expand([
             profile: env == null ? '${profile}' : env
