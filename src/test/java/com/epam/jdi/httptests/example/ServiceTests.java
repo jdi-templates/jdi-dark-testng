@@ -1,11 +1,12 @@
 package com.epam.jdi.httptests.example;
 
+import com.epam.http.requests.RequestDataFacrtory;
 import com.epam.http.response.RestResponse;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import static com.epam.http.requests.RequestDataFacrtory.cookies;
-import static com.epam.http.requests.RequestDataFacrtory.requestData;
+import static com.epam.http.requests.RequestDataFacrtory.pathParams;
 import static com.epam.http.requests.RestMethods.GET;
 import static com.epam.http.requests.ServiceInit.init;
 import static com.epam.http.response.ResponseStatusType.SERVER_ERROR;
@@ -37,7 +38,7 @@ public class ServiceTests {
 
     @Test
     public void noServiceObjectTest() {
-        RestResponse resp = GET(requestData(
+        RestResponse resp = GET(RequestDataFacrtory.requestData(
                 rd -> {
                     rd.uri = "https://httpbin.org/get";
                     rd.addHeaders().addAll(new Object[][]{
@@ -60,6 +61,13 @@ public class ServiceTests {
         assertEquals(resp.getStatus().code, 503);
         assertEquals(resp.getStatus().type, SERVER_ERROR);
         resp.isEmpty();
+    }
+
+    @Test
+    public void retryRequestTest(){
+        service.status.call(pathParams().add("status","500"))
+                .assertThat()
+                .statusCode(500);
     }
 
     @Test

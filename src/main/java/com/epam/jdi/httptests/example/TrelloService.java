@@ -10,7 +10,6 @@ import java.util.List;
 
 import static com.epam.http.requests.RequestDataFacrtory.pathParams;
 import static io.restassured.http.ContentType.JSON;
-import static java.util.Arrays.asList;
 
 /**
  * Example of service for working with Trello API (Service for Project Dashboard creating)
@@ -110,7 +109,7 @@ public class TrelloService {
     public static RestMethod getOrganizationBoards;
 
     public static List<Board> getOrganizationBoards(Organization organization) {
-        return asList(getOrganizationBoards.call(pathParams().add("id", organization.id)).getRaResponse().as(Board[].class));
+        return Arrays.asList(getOrganizationBoards.call(pathParams().add("id", organization.id)).getRaResponse().as(Board[].class));
     }
 
 }
