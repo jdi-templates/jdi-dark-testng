@@ -1,12 +1,13 @@
 package com.epam.jdi.httptests.example;
 
-import com.epam.http.requests.RequestDataFacrtory;
+import com.epam.http.requests.RequestDataFactory;
+import com.epam.http.requests.RestMethods;
 import com.epam.http.response.RestResponse;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import static com.epam.http.requests.RequestDataFacrtory.cookies;
-import static com.epam.http.requests.RequestDataFacrtory.pathParams;
+import static com.epam.http.requests.RequestDataFactory.cookies;
+import static com.epam.http.requests.RequestDataFactory.requestData;
 import static com.epam.http.requests.RestMethods.GET;
 import static com.epam.http.requests.ServiceInit.init;
 import static com.epam.http.response.ResponseStatusType.SERVER_ERROR;
@@ -38,10 +39,9 @@ public class ServiceTests {
 
     @Test
     public void noServiceObjectTest() {
-        RestResponse resp = GET(RequestDataFacrtory.requestData(
-                rd -> {
+        RestResponse resp = RestMethods.GET(requestData(rd -> {
                     rd.uri = "https://httpbin.org/get";
-                    rd.addHeaders().addAll(new Object[][]{
+                    rd.headerUpdater().addAll(new Object[][]{
                             {"Name", "Roman"},
                             {"Id", "TestTest"}
                     });
@@ -57,15 +57,14 @@ public class ServiceTests {
 
     @Test
     public void statusTestWithQueryInPath() {
-        RestResponse resp = service.statusWithQuery.callWithNamedParams("503", "some");
+        RestResponse resp = service.statusWithQuery.pathParams("503", "some").call();
         assertEquals(resp.getStatus().code, 503);
-        assertEquals(resp.getStatus().type, SERVER_ERROR);
         resp.isEmpty();
     }
 
     @Test
     public void retryRequestTest(){
-        service.status.call(pathParams().add("status","500"))
+        service.status.call(RequestDataFactory.pathParams().add("status","500"))
                 .assertThat()
                 .statusCode(500);
     }
