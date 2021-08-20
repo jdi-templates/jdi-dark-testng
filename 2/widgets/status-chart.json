@@ -1,0 +1,101 @@
+[ {
+  "uid" : "4237923662d0b613",
+  "name" : "createCardInBoard",
+  "time" : {
+    "start" : 1629459515549,
+    "stop" : 1629459517166,
+    "duration" : 1617
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27caab736df31734",
+  "name" : "assignBoardToOrganization",
+  "time" : {
+    "start" : 1629459514136,
+    "stop" : 1629459515542,
+    "duration" : 1406
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63a9a5cdc6e917af",
+  "name" : "htmlBodyParseTest",
+  "time" : {
+    "start" : 1629459504979,
+    "stop" : 1629459505820,
+    "duration" : 841
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "620db8517da3a003",
+  "name" : "assignBoardToOrganization",
+  "time" : {
+    "start" : 1629459517187,
+    "stop" : 1629459517915,
+    "duration" : 728
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9144298fdb558c9e",
+  "name" : "serviceInitTest",
+  "time" : {
+    "start" : 1629459512679,
+    "stop" : 1629459513176,
+    "duration" : 497
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38bdfd3d183c44a8",
+  "name" : "noServiceObjectTest",
+  "time" : {
+    "start" : 1629459505822,
+    "stop" : 1629459506371,
+    "duration" : 549
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3af658b5464afa76",
+  "name" : "simpleRestTest",
+  "time" : {
+    "start" : 1629459513179,
+    "stop" : 1629459513669,
+    "duration" : 490
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37f130c1c48cd411",
+  "name" : "cookiesTest",
+  "time" : {
+    "start" : 1629459502504,
+    "stop" : 1629459504864,
+    "duration" : 2360
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8be7fbfb4f9b1414",
+  "name" : "statusTestWithQueryInPath",
+  "time" : {
+    "start" : 1629459513672,
+    "stop" : 1629459514125,
+    "duration" : 453
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1558060c339f682",
+  "name" : "retryRequestTest",
+  "time" : {
+    "start" : 1629459506373,
+    "stop" : 1629459512677,
+    "duration" : 6304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

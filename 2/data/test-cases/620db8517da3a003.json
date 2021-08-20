@@ -1,0 +1,185 @@
+{
+  "uid" : "620db8517da3a003",
+  "name" : "assignBoardToOrganization",
+  "fullName" : "com.epam.jdi.httptests.example.ServiceSettingsTests.assignBoardToOrganization",
+  "historyId" : "1383d69b3a6b6a8a265d467ddeb4cf7f",
+  "time" : {
+    "start" : 1629459517187,
+    "stop" : 1629459517915,
+    "duration" : 728
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initAuthScheme",
+    "time" : {
+      "start" : 1629459517170,
+      "stop" : 1629459517172,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initErrorHandler",
+    "time" : {
+      "start" : 1629459517172,
+      "stop" : 1629459517173,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initObjectMapper",
+    "time" : {
+      "start" : 1629459517173,
+      "stop" : 1629459517173,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initRequestSpecification",
+    "time" : {
+      "start" : 1629459517174,
+      "stop" : 1629459517176,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initService",
+    "time" : {
+      "start" : 1629459517176,
+      "stop" : 1629459517184,
+      "duration" : 8
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST https://api.trello.com/1/organizations",
+      "time" : {
+        "start" : 1629459517199,
+        "stop" : 1629459517915,
+        "duration" : 716
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aa3c1e9e06511cf4",
+        "name" : "Request POST https://api.trello.com/1/organizations",
+        "source" : "aa3c1e9e06511cf4.json",
+        "type" : "text/html",
+        "size" : 377
+      }, {
+        "uid" : "d58469a690058dda",
+        "name" : "Request",
+        "source" : "d58469a690058dda.html",
+        "type" : "text/html",
+        "size" : 1163
+      }, {
+        "uid" : "bce6591f47490de3",
+        "name" : "HTTP/1.1 400 Bad Request",
+        "source" : "bce6591f47490de3.html",
+        "type" : "text/html",
+        "size" : 2467
+      }, {
+        "uid" : "4efb54e68a0fe38d",
+        "name" : "Response",
+        "source" : "4efb54e68a0fe38d.json",
+        "type" : "text/html",
+        "size" : 134
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.jdi.httptests.example.ServiceSettingsTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.jdi.httptests.example.ServiceSettingsTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "assignBoardToOrganization"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test suite"
+  }, {
+    "name" : "suite",
+    "value" : "Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.jdi.httptests.example.ServiceSettingsTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az269-178"
+  }, {
+    "name" : "thread",
+    "value" : "2987@fv-az269-178.TestNG-test=Tests-1(12)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "620db8517da3a003.json",
+  "parameterValues" : [ ]
+}

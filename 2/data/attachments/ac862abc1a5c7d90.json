@@ -1,0 +1,15 @@
+Response status: 200 OK (OK)
+Response body: {
+  "args": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip,deflate", 
+    "Host": "httpbin.org", 
+    "Id": "TestTest", 
+    "Name": "Roman", 
+    "User-Agent": "Apache-HttpClient/4.5.3 (Java/1.8.0_302)", 
+    "X-Amzn-Trace-Id": "Root=1-611f9432-58690ccd07e01c187e6372b4"
+  }, 
+  "origin": "20.94.226.169", 
+  "url": "https://httpbin.org/get"
+}

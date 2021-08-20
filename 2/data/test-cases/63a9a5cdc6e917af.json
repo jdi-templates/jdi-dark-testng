@@ -1,0 +1,109 @@
+{
+  "uid" : "63a9a5cdc6e917af",
+  "name" : "htmlBodyParseTest",
+  "fullName" : "com.epam.jdi.httptests.example.ServiceTests.htmlBodyParseTest",
+  "historyId" : "60583c0b4908430a075cc5c5a2cb0ba6",
+  "time" : {
+    "start" : 1629459504979,
+    "stop" : 1629459505820,
+    "duration" : 841
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "before",
+    "time" : {
+      "start" : 1629459500836,
+      "stop" : 1629459502456,
+      "duration" : 1620
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET https://httpbin.org//html",
+      "time" : {
+        "start" : 1629459504992,
+        "stop" : 1629459505463,
+        "duration" : 471
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "413a65654b9674b7",
+        "name" : "Request GET https://httpbin.org//html",
+        "source" : "413a65654b9674b7.json",
+        "type" : "text/html",
+        "size" : 56
+      }, {
+        "uid" : "ee10ec0369fa6386",
+        "name" : "Response",
+        "source" : "ee10ec0369fa6386.json",
+        "type" : "text/html",
+        "size" : 3785
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.jdi.httptests.example.ServiceTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.jdi.httptests.example.ServiceTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "htmlBodyParseTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test suite"
+  }, {
+    "name" : "suite",
+    "value" : "Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.jdi.httptests.example.ServiceTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az269-178"
+  }, {
+    "name" : "thread",
+    "value" : "2987@fv-az269-178.TestNG-test=Tests-1(12)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "63a9a5cdc6e917af.json",
+  "parameterValues" : [ ]
+}

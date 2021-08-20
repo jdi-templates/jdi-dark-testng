@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://jdi-templates.github.io/jdi-dark-testng-template",
+  "buildOrder" : 2,
+  "buildName" : "GitHub Actions Run #1150529762",
+  "buildUrl" : "https://github.com/jdi-templates/jdi-dark-testng-template/actions/runs/1150529762",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/2/"
+} ]
