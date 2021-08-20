@@ -1,0 +1,129 @@
+{
+  "uid" : "ada57c0e79ad5d14",
+  "name" : "cookiesTest",
+  "fullName" : "com.epam.jdi.httptests.example.ServiceTests.cookiesTest",
+  "historyId" : "bfbdbe8f9ef4ab7498a1e817adb8be0f",
+  "time" : {
+    "start" : 1629459929438,
+    "stop" : 1629459931915,
+    "duration" : 2477
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "before",
+    "time" : {
+      "start" : 1629459927531,
+      "stop" : 1629459929344,
+      "duration" : 1813
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET https://httpbin.org//cookies",
+      "time" : {
+        "start" : 1629459929661,
+        "stop" : 1629459931459,
+        "duration" : 1798
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8798d9a85f183467",
+        "name" : "Request GET https://httpbin.org//cookies",
+        "source" : "8798d9a85f183467.json",
+        "type" : "text/html",
+        "size" : 111
+      }, {
+        "uid" : "7139cf8d6529b796",
+        "name" : "Response",
+        "source" : "7139cf8d6529b796.json",
+        "type" : "text/html",
+        "size" : 148
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.jdi.httptests.example.ServiceTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.jdi.httptests.example.ServiceTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "cookiesTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test suite"
+  }, {
+    "name" : "suite",
+    "value" : "Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.jdi.httptests.example.ServiceTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az129-132"
+  }, {
+    "name" : "thread",
+    "value" : "2948@fv-az129-132.TestNG-test=Tests-1(12)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "37f130c1c48cd411",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/2//#testresult/37f130c1c48cd411",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629459502504,
+          "stop" : 1629459504864,
+          "duration" : 2360
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ada57c0e79ad5d14.json",
+  "parameterValues" : [ ]
+}
