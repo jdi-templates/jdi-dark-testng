@@ -1,0 +1,101 @@
+[ {
+  "uid" : "a6cd6dd257be183c",
+  "name" : "assignBoardToOrganization",
+  "time" : {
+    "start" : 1629825019505,
+    "stop" : 1629825020409,
+    "duration" : 904
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a2af9a57429d36f",
+  "name" : "simpleRestTest",
+  "time" : {
+    "start" : 1629825015579,
+    "stop" : 1629825016056,
+    "duration" : 477
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e3499bfb5eeebda",
+  "name" : "retryRequestTest",
+  "time" : {
+    "start" : 1629825008844,
+    "stop" : 1629825015091,
+    "duration" : 6247
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "552c6067edc0244a",
+  "name" : "statusTestWithQueryInPath",
+  "time" : {
+    "start" : 1629825016059,
+    "stop" : 1629825016529,
+    "duration" : 470
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "faf69257c61ffb4a",
+  "name" : "noServiceObjectTest",
+  "time" : {
+    "start" : 1629825008280,
+    "stop" : 1629825008842,
+    "duration" : 562
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51108749bdc4d9a6",
+  "name" : "serviceInitTest",
+  "time" : {
+    "start" : 1629825015093,
+    "stop" : 1629825015577,
+    "duration" : 484
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57c673821700b5f7",
+  "name" : "htmlBodyParseTest",
+  "time" : {
+    "start" : 1629825007114,
+    "stop" : 1629825008277,
+    "duration" : 1163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d69992da0dcbf299",
+  "name" : "createCardInBoard",
+  "time" : {
+    "start" : 1629825017813,
+    "stop" : 1629825019484,
+    "duration" : 1671
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5a8bb1305918e99",
+  "name" : "assignBoardToOrganization",
+  "time" : {
+    "start" : 1629825016568,
+    "stop" : 1629825017801,
+    "duration" : 1233
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84f6554c8ddf495b",
+  "name" : "cookiesTest",
+  "time" : {
+    "start" : 1629825003852,
+    "stop" : 1629825007027,
+    "duration" : 3175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
