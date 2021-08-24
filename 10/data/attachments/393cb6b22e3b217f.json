@@ -1,0 +1,3 @@
+GET https://httpbin.org//cookies  [
+cookies: [session_id=1234, hello=world], 
+cookies: [additionalCookie=test]]

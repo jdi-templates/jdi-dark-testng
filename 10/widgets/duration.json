@@ -1,100 +1,100 @@
 [ {
-  "uid" : "f4697cf2f1ab5e26",
+  "uid" : "3bb21c722c986fa0",
   "name" : "assignBoardToOrganization",
   "time" : {
-    "start" : 1629827625784,
-    "stop" : 1629827627130,
-    "duration" : 1346
+    "start" : 1629827727789,
+    "stop" : 1629827728466,
+    "duration" : 677
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "774c5ed5fedfa00d",
-  "name" : "assignBoardToOrganization",
-  "time" : {
-    "start" : 1629827628860,
-    "stop" : 1629827629398,
-    "duration" : 538
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "60146482249132be",
-  "name" : "noServiceObjectTest",
-  "time" : {
-    "start" : 1629827617344,
-    "stop" : 1629827617950,
-    "duration" : 606
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bb8222d9c381f9c4",
-  "name" : "createCardInBoard",
-  "time" : {
-    "start" : 1629827627133,
-    "stop" : 1629827628832,
-    "duration" : 1699
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c392ba6deaebdfa1",
-  "name" : "statusTestWithQueryInPath",
-  "time" : {
-    "start" : 1629827625295,
-    "stop" : 1629827625774,
-    "duration" : 479
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3e9b40ee29f6a70",
-  "name" : "cookiesTest",
-  "time" : {
-    "start" : 1629827613456,
-    "stop" : 1629827616402,
-    "duration" : 2946
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1ca8238f80c7ab46",
+  "uid" : "ea3cc1d41804097",
   "name" : "retryRequestTest",
   "time" : {
-    "start" : 1629827617959,
-    "stop" : 1629827624289,
-    "duration" : 6330
+    "start" : 1629827716843,
+    "stop" : 1629827723337,
+    "duration" : 6494
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c71ae9e508819e6a",
-  "name" : "htmlBodyParseTest",
+  "uid" : "55d028df26daae5d",
+  "name" : "createCardInBoard",
   "time" : {
-    "start" : 1629827616541,
-    "stop" : 1629827617340,
-    "duration" : 799
+    "start" : 1629827726149,
+    "stop" : 1629827727755,
+    "duration" : 1606
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2f158fa9eb05ba10",
-  "name" : "simpleRestTest",
+  "uid" : "42a09803e9c356c4",
+  "name" : "statusTestWithQueryInPath",
   "time" : {
-    "start" : 1629827624793,
-    "stop" : 1629827625294,
-    "duration" : 501
+    "start" : 1629827724346,
+    "stop" : 1629827724811,
+    "duration" : 465
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "119dc755cc03455b",
+  "uid" : "c9adbb3444dcbca2",
   "name" : "serviceInitTest",
   "time" : {
-    "start" : 1629827624292,
-    "stop" : 1629827624789,
-    "duration" : 497
+    "start" : 1629827723341,
+    "stop" : 1629827723833,
+    "duration" : 492
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0a85f2285d67355",
+  "name" : "cookiesTest",
+  "time" : {
+    "start" : 1629827712898,
+    "stop" : 1629827715406,
+    "duration" : 2508
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59ec40cecf14dcfb",
+  "name" : "assignBoardToOrganization",
+  "time" : {
+    "start" : 1629827724825,
+    "stop" : 1629827726143,
+    "duration" : 1318
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eebfc0e87b8d8e8f",
+  "name" : "noServiceObjectTest",
+  "time" : {
+    "start" : 1629827716241,
+    "stop" : 1629827716840,
+    "duration" : 599
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c457ac86a5297076",
+  "name" : "simpleRestTest",
+  "time" : {
+    "start" : 1629827723838,
+    "stop" : 1629827724343,
+    "duration" : 505
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4a7c34603b09588",
+  "name" : "htmlBodyParseTest",
+  "time" : {
+    "start" : 1629827715519,
+    "stop" : 1629827716238,
+    "duration" : 719
   },
   "status" : "passed",
   "severity" : "normal"
