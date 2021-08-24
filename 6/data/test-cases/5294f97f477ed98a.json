@@ -1,0 +1,201 @@
+{
+  "uid" : "5294f97f477ed98a",
+  "name" : "htmlBodyParseTest",
+  "fullName" : "com.epam.jdi.httptests.example.ServiceTests.htmlBodyParseTest",
+  "historyId" : "60583c0b4908430a075cc5c5a2cb0ba6",
+  "time" : {
+    "start" : 1629808152976,
+    "stop" : 1629808153777,
+    "duration" : 801
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "before",
+    "time" : {
+      "start" : 1629808147670,
+      "stop" : 1629808149944,
+      "duration" : 2274
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET https://httpbin.org//html",
+      "time" : {
+        "start" : 1629808152988,
+        "stop" : 1629808153490,
+        "duration" : 502
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a33ec9206f368bdb",
+        "name" : "Request GET https://httpbin.org//html",
+        "source" : "a33ec9206f368bdb.json",
+        "type" : "text/html",
+        "size" : 56
+      }, {
+        "uid" : "652a19a4a60e75ff",
+        "name" : "Response",
+        "source" : "652a19a4a60e75ff.json",
+        "type" : "text/html",
+        "size" : 3785
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.jdi.httptests.example.ServiceTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.jdi.httptests.example.ServiceTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "htmlBodyParseTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test suite"
+  }, {
+    "name" : "suite",
+    "value" : "Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.jdi.httptests.example.ServiceTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az269-763"
+  }, {
+    "name" : "thread",
+    "value" : "2957@fv-az269-763.TestNG-test=Tests-1(14)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "13337135bd4fa8f7",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/6//#testresult/13337135bd4fa8f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629808053539,
+          "stop" : 1629808053930,
+          "duration" : 391
+        }
+      }, {
+        "uid" : "e0925340efc52ba5",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/6//#testresult/e0925340efc52ba5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807961166,
+          "stop" : 1629807961598,
+          "duration" : 432
+        }
+      }, {
+        "uid" : "efd664c334010d0b",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/6//#testresult/efd664c334010d0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807867150,
+          "stop" : 1629807867608,
+          "duration" : 458
+        }
+      }, {
+        "uid" : "5282c373a71345c1",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/6//#testresult/5282c373a71345c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807766205,
+          "stop" : 1629807766977,
+          "duration" : 772
+        }
+      }, {
+        "uid" : "625903c9df23fbdb",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/6//#testresult/625903c9df23fbdb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807665976,
+          "stop" : 1629807666368,
+          "duration" : 392
+        }
+      }, {
+        "uid" : "c41229e086e716b9",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/5//#testresult/c41229e086e716b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807358530,
+          "stop" : 1629807359091,
+          "duration" : 561
+        }
+      }, {
+        "uid" : "c7e6dedaf24c2482",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/4//#testresult/c7e6dedaf24c2482",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629800152350,
+          "stop" : 1629800153059,
+          "duration" : 709
+        }
+      }, {
+        "uid" : "664e05a2363e2be3",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/3//#testresult/664e05a2363e2be3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629459931991,
+          "stop" : 1629459932612,
+          "duration" : 621
+        }
+      }, {
+        "uid" : "63a9a5cdc6e917af",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/2//#testresult/63a9a5cdc6e917af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629459504979,
+          "stop" : 1629459505820,
+          "duration" : 841
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5294f97f477ed98a.json",
+  "parameterValues" : [ ]
+}
