@@ -3,6 +3,13 @@
   "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/11/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "Test defects" : 2
+  }
+}, {
+  "buildOrder" : 11,
+  "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/11/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "Test defects" : 1
   }
 }, {
@@ -93,11 +100,6 @@
 }, {
   "buildOrder" : 9,
   "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/9/",
-  "reportName" : "Allure Report with history",
-  "data" : { }
-}, {
-  "buildOrder" : 8,
-  "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/8/",
   "reportName" : "Allure Report with history",
   "data" : { }
 } ]

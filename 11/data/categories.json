@@ -3,22 +3,35 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Bad raResponse: Response status: 502 Bad Gateway (SERVER_ERROR)\nResponse body: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n",
+      "name" : "Bad raResponse: Response status: 429 Too Many Requests (CLIENT_ERROR)\nResponse body: {\"message\":\"Rate limit exceeded: requests per interval for API token\",\"error\":\"API_TOKEN_LIMIT_EXCEEDED\"}",
       "children" : [ {
-        "name" : "simpleRestTest",
-        "uid" : "7ccc5d78525d35d",
-        "parentUid" : "58e141abf30aafba72215a7502a6f0e8",
+        "name" : "assignBoardToOrganization",
+        "uid" : "9c68099a722edea3",
+        "parentUid" : "c9a97c717a13e01239f73f5f5e6a1e5f",
         "status" : "broken",
         "time" : {
-          "start" : 1629828269778,
-          "stop" : 1629828270222,
-          "duration" : 444
+          "start" : 1629828369288,
+          "stop" : 1629828369686,
+          "duration" : 398
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createCardInBoard",
+        "uid" : "7f515ec00da52dfc",
+        "parentUid" : "c9a97c717a13e01239f73f5f5e6a1e5f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629828369689,
+          "stop" : 1629828369786,
+          "duration" : 97
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "58e141abf30aafba72215a7502a6f0e8"
+      "uid" : "c9a97c717a13e01239f73f5f5e6a1e5f"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
