@@ -3,6 +3,13 @@
   "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 13163
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 22746
   }
 }, {
@@ -131,6 +138,4 @@
   "data" : {
     "duration" : 15411
   }
-}, {
-  "data" : { }
 } ]

@@ -1,0 +1,399 @@
+{
+  "uid" : "b6d1cf22dce9b2e4",
+  "name" : "retryRequestTest",
+  "fullName" : "com.epam.jdi.httptests.example.ServiceTests.retryRequestTest",
+  "historyId" : "89ea7787dcd2de115b556b96477e27f8",
+  "time" : {
+    "start" : 1629809525401,
+    "stop" : 1629809529870,
+    "duration" : 4469
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "before",
+    "time" : {
+      "start" : 1629809520719,
+      "stop" : 1629809522673,
+      "duration" : 1954
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET https://httpbin.org//status/{status}",
+      "time" : {
+        "start" : 1629809525415,
+        "stop" : 1629809525532,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bb703d73bedf4ae0",
+        "name" : "Request GET https://httpbin.org//status/{status}",
+        "source" : "bb703d73bedf4ae0.json",
+        "type" : "text/html",
+        "size" : 94
+      }, {
+        "uid" : "c00d083c3da67186",
+        "name" : "Response",
+        "source" : "c00d083c3da67186.json",
+        "type" : "text/html",
+        "size" : 73
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET https://httpbin.org//status/{status}",
+      "time" : {
+        "start" : 1629809526535,
+        "stop" : 1629809526625,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "593aa1a8d6e8fdd5",
+        "name" : "Request GET https://httpbin.org//status/{status}",
+        "source" : "593aa1a8d6e8fdd5.json",
+        "type" : "text/html",
+        "size" : 44
+      }, {
+        "uid" : "5d860780eaa71576",
+        "name" : "Response",
+        "source" : "5d860780eaa71576.json",
+        "type" : "text/html",
+        "size" : 73
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET https://httpbin.org//status/{status}",
+      "time" : {
+        "start" : 1629809527627,
+        "stop" : 1629809527709,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c16a41ec806b75ad",
+        "name" : "Request GET https://httpbin.org//status/{status}",
+        "source" : "c16a41ec806b75ad.json",
+        "type" : "text/html",
+        "size" : 44
+      }, {
+        "uid" : "cca335b1c4f9b08a",
+        "name" : "Response",
+        "source" : "cca335b1c4f9b08a.json",
+        "type" : "text/html",
+        "size" : 73
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET https://httpbin.org//status/{status}",
+      "time" : {
+        "start" : 1629809528711,
+        "stop" : 1629809528790,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "655694a383550643",
+        "name" : "Request GET https://httpbin.org//status/{status}",
+        "source" : "655694a383550643.json",
+        "type" : "text/html",
+        "size" : 44
+      }, {
+        "uid" : "468a0ae8d502e56b",
+        "name" : "Response",
+        "source" : "468a0ae8d502e56b.json",
+        "type" : "text/html",
+        "size" : 73
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET https://httpbin.org//status/{status}",
+      "time" : {
+        "start" : 1629809529792,
+        "stop" : 1629809529866,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "56513fa03eef288a",
+        "name" : "Request GET https://httpbin.org//status/{status}",
+        "source" : "56513fa03eef288a.json",
+        "type" : "text/html",
+        "size" : 44
+      }, {
+        "uid" : "9be3ace9b65343d7",
+        "name" : "Response",
+        "source" : "9be3ace9b65343d7.json",
+        "type" : "text/html",
+        "size" : 73
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.jdi.httptests.example.ServiceTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.jdi.httptests.example.ServiceTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "retryRequestTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test suite"
+  }, {
+    "name" : "suite",
+    "value" : "Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.jdi.httptests.example.ServiceTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az193-65"
+  }, {
+    "name" : "thread",
+    "value" : "3077@fv-az193-65.TestNG-test=Tests-1(15)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 20,
+        "unknown" : 0,
+        "total" : 20
+      },
+      "items" : [ {
+        "uid" : "5e1db8c3bbb4a132",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/5e1db8c3bbb4a132",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629809422440,
+          "stop" : 1629809428864,
+          "duration" : 6424
+        }
+      }, {
+        "uid" : "af7c80acfc3b8cec",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/af7c80acfc3b8cec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629809322931,
+          "stop" : 1629809327922,
+          "duration" : 4991
+        }
+      }, {
+        "uid" : "9bdcd2e783ff30f0",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/9bdcd2e783ff30f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629809227485,
+          "stop" : 1629809233804,
+          "duration" : 6319
+        }
+      }, {
+        "uid" : "36fad276506154a9",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/36fad276506154a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629809122200,
+          "stop" : 1629809128430,
+          "duration" : 6230
+        }
+      }, {
+        "uid" : "ba3efd384cbe3ba9",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/ba3efd384cbe3ba9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629809019488,
+          "stop" : 1629809024984,
+          "duration" : 5496
+        }
+      }, {
+        "uid" : "9cbe1eef65fb2c7a",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/9cbe1eef65fb2c7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629808899275,
+          "stop" : 1629808903698,
+          "duration" : 4423
+        }
+      }, {
+        "uid" : "3663f4e5ccf9d733",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/6//#testresult/3663f4e5ccf9d733",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629808460803,
+          "stop" : 1629808467150,
+          "duration" : 6347
+        }
+      }, {
+        "uid" : "ee5d28cd7208872c",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/6//#testresult/ee5d28cd7208872c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629808351360,
+          "stop" : 1629808357867,
+          "duration" : 6507
+        }
+      }, {
+        "uid" : "7798cbb0ab353ab7",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/6//#testresult/7798cbb0ab353ab7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629808253135,
+          "stop" : 1629808257681,
+          "duration" : 4546
+        }
+      }, {
+        "uid" : "4c2a95d259f637b9",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/6//#testresult/4c2a95d259f637b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629808154391,
+          "stop" : 1629808160702,
+          "duration" : 6311
+        }
+      }, {
+        "uid" : "7525c6cd51222a72",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/6//#testresult/7525c6cd51222a72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629808054164,
+          "stop" : 1629808058654,
+          "duration" : 4490
+        }
+      }, {
+        "uid" : "eebf0846f3ba23d8",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/6//#testresult/eebf0846f3ba23d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807961869,
+          "stop" : 1629807966687,
+          "duration" : 4818
+        }
+      }, {
+        "uid" : "f46b241578892a71",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/6//#testresult/f46b241578892a71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807867959,
+          "stop" : 1629807873392,
+          "duration" : 5433
+        }
+      }, {
+        "uid" : "d0aeb4c68906b79d",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/6//#testresult/d0aeb4c68906b79d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807767593,
+          "stop" : 1629807773874,
+          "duration" : 6281
+        }
+      }, {
+        "uid" : "e5105a04bd9ddc90",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/6//#testresult/e5105a04bd9ddc90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807666517,
+          "stop" : 1629807670916,
+          "duration" : 4399
+        }
+      }, {
+        "uid" : "bf723c5d2ebc5a1a",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/5//#testresult/bf723c5d2ebc5a1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807359423,
+          "stop" : 1629807364769,
+          "duration" : 5346
+        }
+      }, {
+        "uid" : "d817bf40c34511a9",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/4//#testresult/d817bf40c34511a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629800153348,
+          "stop" : 1629800158570,
+          "duration" : 5222
+        }
+      }, {
+        "uid" : "84cab6a984fd1d1e",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/3//#testresult/84cab6a984fd1d1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629459932995,
+          "stop" : 1629459938466,
+          "duration" : 5471
+        }
+      }, {
+        "uid" : "c1558060c339f682",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/2//#testresult/c1558060c339f682",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629459506373,
+          "stop" : 1629459512677,
+          "duration" : 6304
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b6d1cf22dce9b2e4.json",
+  "parameterValues" : [ ]
+}
