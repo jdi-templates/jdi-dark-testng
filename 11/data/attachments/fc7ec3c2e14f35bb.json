@@ -1,0 +1,20 @@
+Response status: 200 OK (OK)
+Response body: {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip,deflate", 
+    "Content-Length": "0", 
+    "Content-Type": "application/x-www-form-urlencoded; charset=ISO-8859-1", 
+    "Host": "httpbin.org", 
+    "Type": "Test", 
+    "User-Agent": "Apache-HttpClient/4.5.3 (Java/10.0.2)", 
+    "X-Amzn-Trace-Id": "Root=1-6125356c-67327afc2b0cfe300d95cad5"
+  }, 
+  "json": null, 
+  "origin": "40.121.244.147", 
+  "url": "https://httpbin.org/post"
+}
