@@ -1,100 +1,100 @@
 [ {
-  "uid" : "4e1e330ea0722d06",
-  "name" : "createCardInBoard",
-  "time" : {
-    "start" : 1629809027799,
-    "stop" : 1629809029838,
-    "duration" : 2039
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8322b0ed6467d66c",
-  "name" : "htmlBodyParseTest",
-  "time" : {
-    "start" : 1629809018315,
-    "stop" : 1629809019034,
-    "duration" : 719
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ba3efd384cbe3ba9",
-  "name" : "retryRequestTest",
-  "time" : {
-    "start" : 1629809019488,
-    "stop" : 1629809024984,
-    "duration" : 5496
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "18b568d0234d4e1f",
-  "name" : "assignBoardToOrganization",
-  "time" : {
-    "start" : 1629809029867,
-    "stop" : 1629809030756,
-    "duration" : 889
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3c5075b32fb8eee2",
-  "name" : "noServiceObjectTest",
-  "time" : {
-    "start" : 1629809019036,
-    "stop" : 1629809019485,
-    "duration" : 449
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ec61dd3b7f08f2bf",
-  "name" : "statusTestWithQueryInPath",
-  "time" : {
-    "start" : 1629809025735,
-    "stop" : 1629809026049,
-    "duration" : 314
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "64c92e8f661f5c91",
-  "name" : "cookiesTest",
-  "time" : {
-    "start" : 1629809015472,
-    "stop" : 1629809018222,
-    "duration" : 2750
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "33e953e7f6529fdd",
-  "name" : "simpleRestTest",
-  "time" : {
-    "start" : 1629809025329,
-    "stop" : 1629809025730,
-    "duration" : 401
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "93610385a3dda9b",
+  "uid" : "683d274fcecfe102",
   "name" : "serviceInitTest",
   "time" : {
-    "start" : 1629809024986,
-    "stop" : 1629809025324,
-    "duration" : 338
+    "start" : 1629809128432,
+    "stop" : 1629809128960,
+    "duration" : 528
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "30aa78d0add2c851",
+  "uid" : "b9bcef7b04f41f97",
+  "name" : "statusTestWithQueryInPath",
+  "time" : {
+    "start" : 1629809129535,
+    "stop" : 1629809129983,
+    "duration" : 448
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76613ea893a99f91",
+  "name" : "cookiesTest",
+  "time" : {
+    "start" : 1629809118139,
+    "stop" : 1629809120802,
+    "duration" : 2663
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2aa11f5acc111d2c",
+  "name" : "noServiceObjectTest",
+  "time" : {
+    "start" : 1629809121628,
+    "stop" : 1629809122198,
+    "duration" : 570
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36fad276506154a9",
+  "name" : "retryRequestTest",
+  "time" : {
+    "start" : 1629809122200,
+    "stop" : 1629809128430,
+    "duration" : 6230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27e459391e979d91",
+  "name" : "createCardInBoard",
+  "time" : {
+    "start" : 1629809131256,
+    "stop" : 1629809133252,
+    "duration" : 1996
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e45bb645e81154b2",
   "name" : "assignBoardToOrganization",
   "time" : {
-    "start" : 1629809026072,
-    "stop" : 1629809027793,
-    "duration" : 1721
+    "start" : 1629809133278,
+    "stop" : 1629809133899,
+    "duration" : 621
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "371b313533a4fa18",
+  "name" : "simpleRestTest",
+  "time" : {
+    "start" : 1629809128963,
+    "stop" : 1629809129530,
+    "duration" : 567
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5657c0874658b5f",
+  "name" : "htmlBodyParseTest",
+  "time" : {
+    "start" : 1629809120904,
+    "stop" : 1629809121626,
+    "duration" : 722
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77cc804defac1fa2",
+  "name" : "assignBoardToOrganization",
+  "time" : {
+    "start" : 1629809130002,
+    "stop" : 1629809131252,
+    "duration" : 1250
   },
   "status" : "passed",
   "severity" : "normal"

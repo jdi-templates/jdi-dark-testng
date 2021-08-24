@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "b9bcef7b04f41f97",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/b9bcef7b04f41f97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629809129535,
+        "stop" : 1629809129983,
+        "duration" : 448
+      }
+    }, {
       "uid" : "ec61dd3b7f08f2bf",
       "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/ec61dd3b7f08f2bf",
       "status" : "passed",
@@ -150,11 +159,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "77cc804defac1fa2",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/77cc804defac1fa2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629809130002,
+        "stop" : 1629809131252,
+        "duration" : 1250
+      }
+    }, {
       "uid" : "30aa78d0add2c851",
       "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/30aa78d0add2c851",
       "status" : "passed",
@@ -296,11 +314,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "36fad276506154a9",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/36fad276506154a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629809122200,
+        "stop" : 1629809128430,
+        "duration" : 6230
+      }
+    }, {
       "uid" : "ba3efd384cbe3ba9",
       "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/ba3efd384cbe3ba9",
       "status" : "passed",
@@ -442,11 +469,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "76613ea893a99f91",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/76613ea893a99f91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629809118139,
+        "stop" : 1629809120802,
+        "duration" : 2663
+      }
+    }, {
       "uid" : "64c92e8f661f5c91",
       "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/64c92e8f661f5c91",
       "status" : "passed",
@@ -588,11 +624,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "f5657c0874658b5f",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/f5657c0874658b5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629809120904,
+        "stop" : 1629809121626,
+        "duration" : 722
+      }
+    }, {
       "uid" : "8322b0ed6467d66c",
       "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/8322b0ed6467d66c",
       "status" : "passed",
@@ -734,11 +779,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "e45bb645e81154b2",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/e45bb645e81154b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629809133278,
+        "stop" : 1629809133899,
+        "duration" : 621
+      }
+    }, {
       "uid" : "18b568d0234d4e1f",
       "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/18b568d0234d4e1f",
       "status" : "passed",
@@ -880,11 +934,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "371b313533a4fa18",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/371b313533a4fa18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629809128963,
+        "stop" : 1629809129530,
+        "duration" : 567
+      }
+    }, {
       "uid" : "33e953e7f6529fdd",
       "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/33e953e7f6529fdd",
       "status" : "passed",
@@ -1026,11 +1089,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "683d274fcecfe102",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/683d274fcecfe102",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629809128432,
+        "stop" : 1629809128960,
+        "duration" : 528
+      }
+    }, {
       "uid" : "93610385a3dda9b",
       "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/93610385a3dda9b",
       "status" : "passed",
@@ -1172,11 +1244,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "2aa11f5acc111d2c",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/2aa11f5acc111d2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629809121628,
+        "stop" : 1629809122198,
+        "duration" : 570
+      }
+    }, {
       "uid" : "3c5075b32fb8eee2",
       "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/3c5075b32fb8eee2",
       "status" : "passed",
@@ -1318,11 +1399,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "27e459391e979d91",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/27e459391e979d91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629809131256,
+        "stop" : 1629809133252,
+        "duration" : 1996
+      }
+    }, {
       "uid" : "4e1e330ea0722d06",
       "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/4e1e330ea0722d06",
       "status" : "passed",

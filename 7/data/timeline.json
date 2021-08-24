@@ -1,143 +1,143 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az129-724",
+    "name" : "fv-az275-899",
     "children" : [ {
-      "name" : "2910@fv-az129-724.TestNG-test=Tests-1(14)",
+      "name" : "2966@fv-az275-899.TestNG-test=Tests-1(14)",
       "children" : [ {
-        "name" : "cookiesTest",
-        "uid" : "64c92e8f661f5c91",
-        "parentUid" : "93d787083589e4711f1447f763d78092",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629809015472,
-          "stop" : 1629809018222,
-          "duration" : 2750
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "statusTestWithQueryInPath",
-        "uid" : "ec61dd3b7f08f2bf",
-        "parentUid" : "93d787083589e4711f1447f763d78092",
+        "uid" : "b9bcef7b04f41f97",
+        "parentUid" : "fde8b5a0fc828b76843653aa35b97155",
         "status" : "passed",
         "time" : {
-          "start" : 1629809025735,
-          "stop" : 1629809026049,
-          "duration" : 314
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "serviceInitTest",
-        "uid" : "93610385a3dda9b",
-        "parentUid" : "93d787083589e4711f1447f763d78092",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629809024986,
-          "stop" : 1629809025324,
-          "duration" : 338
+          "start" : 1629809129535,
+          "stop" : 1629809129983,
+          "duration" : 448
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "assignBoardToOrganization",
-        "uid" : "30aa78d0add2c851",
-        "parentUid" : "93d787083589e4711f1447f763d78092",
+        "uid" : "77cc804defac1fa2",
+        "parentUid" : "fde8b5a0fc828b76843653aa35b97155",
         "status" : "passed",
         "time" : {
-          "start" : 1629809026072,
-          "stop" : 1629809027793,
-          "duration" : 1721
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "retryRequestTest",
-        "uid" : "ba3efd384cbe3ba9",
-        "parentUid" : "93d787083589e4711f1447f763d78092",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629809019488,
-          "stop" : 1629809024984,
-          "duration" : 5496
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "assignBoardToOrganization",
-        "uid" : "18b568d0234d4e1f",
-        "parentUid" : "93d787083589e4711f1447f763d78092",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629809029867,
-          "stop" : 1629809030756,
-          "duration" : 889
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "createCardInBoard",
-        "uid" : "4e1e330ea0722d06",
-        "parentUid" : "93d787083589e4711f1447f763d78092",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629809027799,
-          "stop" : 1629809029838,
-          "duration" : 2039
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "noServiceObjectTest",
-        "uid" : "3c5075b32fb8eee2",
-        "parentUid" : "93d787083589e4711f1447f763d78092",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629809019036,
-          "stop" : 1629809019485,
-          "duration" : 449
+          "start" : 1629809130002,
+          "stop" : 1629809131252,
+          "duration" : 1250
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "htmlBodyParseTest",
-        "uid" : "8322b0ed6467d66c",
-        "parentUid" : "93d787083589e4711f1447f763d78092",
+        "uid" : "f5657c0874658b5f",
+        "parentUid" : "fde8b5a0fc828b76843653aa35b97155",
         "status" : "passed",
         "time" : {
-          "start" : 1629809018315,
-          "stop" : 1629809019034,
-          "duration" : 719
+          "start" : 1629809120904,
+          "stop" : 1629809121626,
+          "duration" : 722
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "noServiceObjectTest",
+        "uid" : "2aa11f5acc111d2c",
+        "parentUid" : "fde8b5a0fc828b76843653aa35b97155",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629809121628,
+          "stop" : 1629809122198,
+          "duration" : 570
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "cookiesTest",
+        "uid" : "76613ea893a99f91",
+        "parentUid" : "fde8b5a0fc828b76843653aa35b97155",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629809118139,
+          "stop" : 1629809120802,
+          "duration" : 2663
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createCardInBoard",
+        "uid" : "27e459391e979d91",
+        "parentUid" : "fde8b5a0fc828b76843653aa35b97155",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629809131256,
+          "stop" : 1629809133252,
+          "duration" : 1996
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "serviceInitTest",
+        "uid" : "683d274fcecfe102",
+        "parentUid" : "fde8b5a0fc828b76843653aa35b97155",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629809128432,
+          "stop" : 1629809128960,
+          "duration" : 528
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "assignBoardToOrganization",
+        "uid" : "e45bb645e81154b2",
+        "parentUid" : "fde8b5a0fc828b76843653aa35b97155",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629809133278,
+          "stop" : 1629809133899,
+          "duration" : 621
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "simpleRestTest",
-        "uid" : "33e953e7f6529fdd",
-        "parentUid" : "93d787083589e4711f1447f763d78092",
+        "uid" : "371b313533a4fa18",
+        "parentUid" : "fde8b5a0fc828b76843653aa35b97155",
         "status" : "passed",
         "time" : {
-          "start" : 1629809025329,
-          "stop" : 1629809025730,
-          "duration" : 401
+          "start" : 1629809128963,
+          "stop" : 1629809129530,
+          "duration" : 567
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "retryRequestTest",
+        "uid" : "36fad276506154a9",
+        "parentUid" : "fde8b5a0fc828b76843653aa35b97155",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629809122200,
+          "stop" : 1629809128430,
+          "duration" : 6230
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "93d787083589e4711f1447f763d78092"
+      "uid" : "fde8b5a0fc828b76843653aa35b97155"
     } ],
-    "uid" : "51e1dbb444769574da6fb42a904e7a16"
+    "uid" : "dc7112c9f916a7725f19785b477746f6"
   } ],
   "name" : "timeline"
 }
