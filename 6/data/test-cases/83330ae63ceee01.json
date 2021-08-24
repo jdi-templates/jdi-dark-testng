@@ -1,0 +1,210 @@
+{
+  "uid" : "83330ae63ceee01",
+  "name" : "assignBoardToOrganization",
+  "fullName" : "com.epam.jdi.httptests.example.TrelloTests.assignBoardToOrganization",
+  "historyId" : "10c38ed1a2f8533bee6e83162fef35ae",
+  "time" : {
+    "start" : 1629807671465,
+    "stop" : 1629807672384,
+    "duration" : 919
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initService",
+    "time" : {
+      "start" : 1629807671458,
+      "stop" : 1629807671464,
+      "duration" : 6
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST https://api.trello.com/1/organizations",
+      "time" : {
+        "start" : 1629807671606,
+        "stop" : 1629807671861,
+        "duration" : 255
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b07b02221e1c5170",
+        "name" : "Request POST https://api.trello.com/1/organizations",
+        "source" : "b07b02221e1c5170.json",
+        "type" : "text/html",
+        "size" : 296
+      }, {
+        "uid" : "97d2b7a51017a695",
+        "name" : "Response",
+        "source" : "97d2b7a51017a695.json",
+        "type" : "text/html",
+        "size" : 363
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST https://api.trello.com/1/boards",
+      "time" : {
+        "start" : 1629807671917,
+        "stop" : 1629807672236,
+        "duration" : 319
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "962e72c089199b3e",
+        "name" : "Request POST https://api.trello.com/1/boards",
+        "source" : "962e72c089199b3e.json",
+        "type" : "text/html",
+        "size" : 360
+      }, {
+        "uid" : "76df48c32c3331ba",
+        "name" : "Response",
+        "source" : "76df48c32c3331ba.json",
+        "type" : "text/html",
+        "size" : 1021
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET https://api.trello.com/1/organizations/{id}/boards",
+      "time" : {
+        "start" : 1629807672266,
+        "stop" : 1629807672365,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9127c0d53c711db",
+        "name" : "Request GET https://api.trello.com/1/organizations/{id}/boards",
+        "source" : "9127c0d53c711db.json",
+        "type" : "text/html",
+        "size" : 293
+      }, {
+        "uid" : "449e289578a498de",
+        "name" : "Response",
+        "source" : "449e289578a498de.json",
+        "type" : "text/html",
+        "size" : 1503
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.jdi.httptests.example.TrelloTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.jdi.httptests.example.TrelloTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "assignBoardToOrganization"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test suite"
+  }, {
+    "name" : "suite",
+    "value" : "Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.jdi.httptests.example.TrelloTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az182-4"
+  }, {
+    "name" : "thread",
+    "value" : "2889@fv-az182-4.TestNG-test=Tests-1(12)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "2bc86121cba2a7d1",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/5//#testresult/2bc86121cba2a7d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807365747,
+          "stop" : 1629807367189,
+          "duration" : 1442
+        }
+      }, {
+        "uid" : "554dca3bd05298fd",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/4//#testresult/554dca3bd05298fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629800159576,
+          "stop" : 1629800160832,
+          "duration" : 1256
+        }
+      }, {
+        "uid" : "e2634c65881c1c7d",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/3//#testresult/e2634c65881c1c7d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629459939416,
+          "stop" : 1629459940873,
+          "duration" : 1457
+        }
+      }, {
+        "uid" : "27caab736df31734",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/2//#testresult/27caab736df31734",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629459514136,
+          "stop" : 1629459515542,
+          "duration" : 1406
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "83330ae63ceee01.json",
+  "parameterValues" : [ ]
+}

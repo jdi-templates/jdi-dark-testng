@@ -1,0 +1,101 @@
+[ {
+  "uid" : "ea212d072ff1ad46",
+  "name" : "createCardInBoard",
+  "time" : {
+    "start" : 1629807672391,
+    "stop" : 1629807673387,
+    "duration" : 996
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d2576e7b1bc0c74",
+  "name" : "noServiceObjectTest",
+  "time" : {
+    "start" : 1629807666370,
+    "stop" : 1629807666512,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46e0b8506bcb8296",
+  "name" : "statusTestWithQueryInPath",
+  "time" : {
+    "start" : 1629807671265,
+    "stop" : 1629807671457,
+    "duration" : 192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f79d758fc0a311f",
+  "name" : "assignBoardToOrganization",
+  "time" : {
+    "start" : 1629807673412,
+    "stop" : 1629807673856,
+    "duration" : 444
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "625903c9df23fbdb",
+  "name" : "htmlBodyParseTest",
+  "time" : {
+    "start" : 1629807665976,
+    "stop" : 1629807666368,
+    "duration" : 392
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce4c4ffba103e024",
+  "name" : "cookiesTest",
+  "time" : {
+    "start" : 1629807663759,
+    "stop" : 1629807665905,
+    "duration" : 2146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e81957d9ac063cc1",
+  "name" : "serviceInitTest",
+  "time" : {
+    "start" : 1629807670918,
+    "stop" : 1629807671068,
+    "duration" : 150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5105a04bd9ddc90",
+  "name" : "retryRequestTest",
+  "time" : {
+    "start" : 1629807666517,
+    "stop" : 1629807670916,
+    "duration" : 4399
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "83330ae63ceee01",
+  "name" : "assignBoardToOrganization",
+  "time" : {
+    "start" : 1629807671465,
+    "stop" : 1629807672384,
+    "duration" : 919
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87273c609c294b44",
+  "name" : "simpleRestTest",
+  "time" : {
+    "start" : 1629807671075,
+    "stop" : 1629807671263,
+    "duration" : 188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
