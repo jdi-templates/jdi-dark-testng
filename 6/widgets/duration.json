@@ -1,100 +1,100 @@
 [ {
-  "uid" : "8fa690fb1eac689e",
+  "uid" : "23644cf00dcc2ccc",
   "name" : "assignBoardToOrganization",
   "time" : {
-    "start" : 1629808369314,
-    "stop" : 1629808369887,
-    "duration" : 573
+    "start" : 1629808468619,
+    "stop" : 1629808469828,
+    "duration" : 1209
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "83193b9f8d814cf7",
-  "name" : "htmlBodyParseTest",
-  "time" : {
-    "start" : 1629808349674,
-    "stop" : 1629808350736,
-    "duration" : 1062
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "13b5178c7952e9fe",
-  "name" : "noServiceObjectTest",
-  "time" : {
-    "start" : 1629808350738,
-    "stop" : 1629808351356,
-    "duration" : 618
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ee5d28cd7208872c",
-  "name" : "retryRequestTest",
-  "time" : {
-    "start" : 1629808351360,
-    "stop" : 1629808357867,
-    "duration" : 6507
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "569d17d79e5378e0",
-  "name" : "simpleRestTest",
-  "time" : {
-    "start" : 1629808358388,
-    "stop" : 1629808358900,
-    "duration" : 512
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d3f37c7ec5d28f7d",
-  "name" : "statusTestWithQueryInPath",
-  "time" : {
-    "start" : 1629808358905,
-    "stop" : 1629808359374,
-    "duration" : 469
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5cad97d17d4a9b8b",
-  "name" : "serviceInitTest",
-  "time" : {
-    "start" : 1629808357870,
-    "stop" : 1629808358387,
-    "duration" : 517
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5d89636ef689ab5",
-  "name" : "cookiesTest",
-  "time" : {
-    "start" : 1629808346709,
-    "stop" : 1629808349473,
-    "duration" : 2764
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c0259d083d4c8a52",
+  "uid" : "cc506814a5b17c8d",
   "name" : "createCardInBoard",
   "time" : {
-    "start" : 1629808360811,
-    "stop" : 1629808369297,
-    "duration" : 8486
+    "start" : 1629808469833,
+    "stop" : 1629808471442,
+    "duration" : 1609
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "33af58dc0af08a1a",
+  "uid" : "3663f4e5ccf9d733",
+  "name" : "retryRequestTest",
+  "time" : {
+    "start" : 1629808460803,
+    "stop" : 1629808467150,
+    "duration" : 6347
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc877f181b9cc4b5",
   "name" : "assignBoardToOrganization",
   "time" : {
-    "start" : 1629808359387,
-    "stop" : 1629808360809,
-    "duration" : 1422
+    "start" : 1629808471459,
+    "stop" : 1629808472014,
+    "duration" : 555
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd852ff3767c474a",
+  "name" : "simpleRestTest",
+  "time" : {
+    "start" : 1629808467640,
+    "stop" : 1629808468162,
+    "duration" : 522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5551cec8276dac5e",
+  "name" : "htmlBodyParseTest",
+  "time" : {
+    "start" : 1629808459237,
+    "stop" : 1629808459977,
+    "duration" : 740
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "177c0b8acdffee96",
+  "name" : "statusTestWithQueryInPath",
+  "time" : {
+    "start" : 1629808468167,
+    "stop" : 1629808468608,
+    "duration" : 441
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de1b6deb34771b73",
+  "name" : "cookiesTest",
+  "time" : {
+    "start" : 1629808456144,
+    "stop" : 1629808459097,
+    "duration" : 2953
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2328eef14a4e262",
+  "name" : "serviceInitTest",
+  "time" : {
+    "start" : 1629808467152,
+    "stop" : 1629808467638,
+    "duration" : 486
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "977ae40371e74473",
+  "name" : "noServiceObjectTest",
+  "time" : {
+    "start" : 1629808459980,
+    "stop" : 1629808460801,
+    "duration" : 821
   },
   "status" : "passed",
   "severity" : "normal"
