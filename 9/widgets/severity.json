@@ -1,100 +1,100 @@
 [ {
-  "uid" : "bd29e79a184ac66f",
-  "name" : "assignBoardToOrganization",
-  "time" : {
-    "start" : 1629826397290,
-    "stop" : 1629826397915,
-    "duration" : 625
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b8e9d6e463239f1e",
+  "uid" : "84311c9bb6e18222",
   "name" : "cookiesTest",
   "time" : {
-    "start" : 1629826384339,
-    "stop" : 1629826386604,
-    "duration" : 2265
+    "start" : 1629826472242,
+    "stop" : 1629826474277,
+    "duration" : 2035
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d89321319ffb3866",
-  "name" : "statusTestWithQueryInPath",
-  "time" : {
-    "start" : 1629826393764,
-    "stop" : 1629826394094,
-    "duration" : 330
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "45c21d3efd5aefb",
-  "name" : "htmlBodyParseTest",
-  "time" : {
-    "start" : 1629826386703,
-    "stop" : 1629826387205,
-    "duration" : 502
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "795b0de2e3c2378b",
-  "name" : "serviceInitTest",
-  "time" : {
-    "start" : 1629826393069,
-    "stop" : 1629826393405,
-    "duration" : 336
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c858c09ed784d107",
-  "name" : "simpleRestTest",
-  "time" : {
-    "start" : 1629826393406,
-    "stop" : 1629826393762,
-    "duration" : 356
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "689e7b1dfcc7b9ae",
+  "uid" : "2881f6f69d220b55",
   "name" : "assignBoardToOrganization",
   "time" : {
-    "start" : 1629826394103,
-    "stop" : 1629826395369,
-    "duration" : 1266
+    "start" : 1629826488133,
+    "stop" : 1629826488566,
+    "duration" : 433
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e1efc2f2a96e549d",
-  "name" : "createCardInBoard",
-  "time" : {
-    "start" : 1629826395375,
-    "stop" : 1629826397265,
-    "duration" : 1890
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e2c790008ef30319",
-  "name" : "noServiceObjectTest",
-  "time" : {
-    "start" : 1629826387207,
-    "stop" : 1629826387624,
-    "duration" : 417
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d15e4587b967e707",
+  "uid" : "c0cc094a2984998b",
   "name" : "retryRequestTest",
   "time" : {
-    "start" : 1629826387626,
-    "stop" : 1629826393067,
-    "duration" : 5441
+    "start" : 1629826474994,
+    "stop" : 1629826479504,
+    "duration" : 4510
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb3d3347e0e1e7aa",
+  "name" : "createCardInBoard",
+  "time" : {
+    "start" : 1629826480764,
+    "stop" : 1629826488106,
+    "duration" : 7342
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "563d93881f140384",
+  "name" : "serviceInitTest",
+  "time" : {
+    "start" : 1629826479506,
+    "stop" : 1629826479645,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbf4cf4d2f14e014",
+  "name" : "assignBoardToOrganization",
+  "time" : {
+    "start" : 1629826479889,
+    "stop" : 1629826480759,
+    "duration" : 870
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b31fea11637ab342",
+  "name" : "htmlBodyParseTest",
+  "time" : {
+    "start" : 1629826474374,
+    "stop" : 1629826474776,
+    "duration" : 402
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a390f1958d7d3f23",
+  "name" : "noServiceObjectTest",
+  "time" : {
+    "start" : 1629826474778,
+    "stop" : 1629826474992,
+    "duration" : 214
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3117ecebea642eca",
+  "name" : "simpleRestTest",
+  "time" : {
+    "start" : 1629826479647,
+    "stop" : 1629826479792,
+    "duration" : 145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8199d62a3ed9ce49",
+  "name" : "statusTestWithQueryInPath",
+  "time" : {
+    "start" : 1629826479794,
+    "stop" : 1629826479880,
+    "duration" : 86
   },
   "status" : "passed",
   "severity" : "normal"
