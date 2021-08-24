@@ -1,0 +1,376 @@
+{
+  "uid" : "b72c6648e6f802de",
+  "name" : "assignBoardToOrganization",
+  "fullName" : "com.epam.jdi.httptests.example.ServiceSettingsTests.assignBoardToOrganization",
+  "historyId" : "1383d69b3a6b6a8a265d467ddeb4cf7f",
+  "time" : {
+    "start" : 1629828876019,
+    "stop" : 1629828876573,
+    "duration" : 554
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initAuthScheme",
+    "time" : {
+      "start" : 1629828875988,
+      "stop" : 1629828875991,
+      "duration" : 3
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initErrorHandler",
+    "time" : {
+      "start" : 1629828875991,
+      "stop" : 1629828875996,
+      "duration" : 5
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initObjectMapper",
+    "time" : {
+      "start" : 1629828875996,
+      "stop" : 1629828875996,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initRequestSpecification",
+    "time" : {
+      "start" : 1629828875996,
+      "stop" : 1629828875999,
+      "duration" : 3
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initService",
+    "time" : {
+      "start" : 1629828875999,
+      "stop" : 1629828876018,
+      "duration" : 19
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST https://api.trello.com/1/organizations",
+      "time" : {
+        "start" : 1629828876030,
+        "stop" : 1629828876572,
+        "duration" : 542
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "91dfb2f549c72932",
+        "name" : "Request POST https://api.trello.com/1/organizations",
+        "source" : "91dfb2f549c72932.json",
+        "type" : "text/html",
+        "size" : 377
+      }, {
+        "uid" : "60a2077f5d6d776a",
+        "name" : "Request",
+        "source" : "60a2077f5d6d776a.html",
+        "type" : "text/html",
+        "size" : 1163
+      }, {
+        "uid" : "889da7fd70f7689f",
+        "name" : "HTTP/1.1 400 Bad Request",
+        "source" : "889da7fd70f7689f.html",
+        "type" : "text/html",
+        "size" : 2466
+      }, {
+        "uid" : "75b769ee65ee251d",
+        "name" : "Response",
+        "source" : "75b769ee65ee251d.json",
+        "type" : "text/html",
+        "size" : 134
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.jdi.httptests.example.ServiceSettingsTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.jdi.httptests.example.ServiceSettingsTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "assignBoardToOrganization"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test suite"
+  }, {
+    "name" : "suite",
+    "value" : "Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.jdi.httptests.example.ServiceSettingsTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az129-724"
+  }, {
+    "name" : "thread",
+    "value" : "3216@fv-az129-724.TestNG-test=Tests-1(15)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 56,
+        "unknown" : 0,
+        "total" : 56
+      },
+      "items" : [ {
+        "uid" : "8acf0a4d0f54200e",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/11//#testresult/8acf0a4d0f54200e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629828774127,
+          "stop" : 1629828774755,
+          "duration" : 628
+        }
+      }, {
+        "uid" : "80890ddb99a7a44",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/11//#testresult/80890ddb99a7a44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629828667280,
+          "stop" : 1629828667956,
+          "duration" : 676
+        }
+      }, {
+        "uid" : "f75e274dc5e6014f",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/11//#testresult/f75e274dc5e6014f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629828562488,
+          "stop" : 1629828563135,
+          "duration" : 647
+        }
+      }, {
+        "uid" : "c65502affb9f5435",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/11//#testresult/c65502affb9f5435",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629828462550,
+          "stop" : 1629828463174,
+          "duration" : 624
+        }
+      }, {
+        "uid" : "7cc97b6d3bbb1820",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/11//#testresult/7cc97b6d3bbb1820",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629828369822,
+          "stop" : 1629828370425,
+          "duration" : 603
+        }
+      }, {
+        "uid" : "f4ea4a8ca768b2e4",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/11//#testresult/f4ea4a8ca768b2e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629828273912,
+          "stop" : 1629828274570,
+          "duration" : 658
+        }
+      }, {
+        "uid" : "c6ae3047a5fb1b73",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/10//#testresult/c6ae3047a5fb1b73",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629828162793,
+          "stop" : 1629828163605,
+          "duration" : 812
+        }
+      }, {
+        "uid" : "5dd379abea9f73f4",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/10//#testresult/5dd379abea9f73f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629828052015,
+          "stop" : 1629828052632,
+          "duration" : 617
+        }
+      }, {
+        "uid" : "ae6c2f6dc19aa580",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/10//#testresult/ae6c2f6dc19aa580",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629827945036,
+          "stop" : 1629827945823,
+          "duration" : 787
+        }
+      }, {
+        "uid" : "1d5f38e5d6d0ef7e",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/10//#testresult/1d5f38e5d6d0ef7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629827835530,
+          "stop" : 1629827836126,
+          "duration" : 596
+        }
+      }, {
+        "uid" : "3bb21c722c986fa0",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/10//#testresult/3bb21c722c986fa0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629827727789,
+          "stop" : 1629827728466,
+          "duration" : 677
+        }
+      }, {
+        "uid" : "774c5ed5fedfa00d",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/10//#testresult/774c5ed5fedfa00d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629827628860,
+          "stop" : 1629827629398,
+          "duration" : 538
+        }
+      }, {
+        "uid" : "ce39187533795abc",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/10//#testresult/ce39187533795abc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629827519522,
+          "stop" : 1629827520105,
+          "duration" : 583
+        }
+      }, {
+        "uid" : "2fcdb75e28e98fce",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/10//#testresult/2fcdb75e28e98fce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629827413111,
+          "stop" : 1629827413814,
+          "duration" : 703
+        }
+      }, {
+        "uid" : "4c4c79c1d38a7dca",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/10//#testresult/4c4c79c1d38a7dca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629827313674,
+          "stop" : 1629827314313,
+          "duration" : 639
+        }
+      }, {
+        "uid" : "5890dd16f1d6a6e6",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/9//#testresult/5890dd16f1d6a6e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629826790909,
+          "stop" : 1629826791416,
+          "duration" : 507
+        }
+      }, {
+        "uid" : "e30372059f691fbb",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/9//#testresult/e30372059f691fbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629826689232,
+          "stop" : 1629826689790,
+          "duration" : 558
+        }
+      }, {
+        "uid" : "f49e36c610ece20b",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/9//#testresult/f49e36c610ece20b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629826587951,
+          "stop" : 1629826588483,
+          "duration" : 532
+        }
+      }, {
+        "uid" : "2881f6f69d220b55",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/9//#testresult/2881f6f69d220b55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629826488133,
+          "stop" : 1629826488566,
+          "duration" : 433
+        }
+      }, {
+        "uid" : "bd29e79a184ac66f",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/9//#testresult/bd29e79a184ac66f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629826397290,
+          "stop" : 1629826397915,
+          "duration" : 625
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b72c6648e6f802de.json",
+  "parameterValues" : [ ]
+}
