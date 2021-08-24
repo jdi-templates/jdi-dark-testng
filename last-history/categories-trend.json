@@ -7,6 +7,11 @@
   "buildOrder" : 7,
   "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7/",
   "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7/",
+  "reportName" : "Allure Report with history",
   "data" : {
     "Test defects" : 2
   }
