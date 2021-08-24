@@ -8,91 +8,91 @@
         "name" : "com.epam.jdi.httptests.example.ServiceTests",
         "children" : [ {
           "name" : "cookiesTest",
-          "uid" : "146b23c2772e36c8",
+          "uid" : "55ac4c478b71009",
           "parentUid" : "fe3420463e3682084dd304b7418f27d6",
           "status" : "passed",
           "time" : {
-            "start" : 1629825607791,
-            "stop" : 1629825610380,
-            "duration" : 2589
+            "start" : 1629825704506,
+            "stop" : 1629825707223,
+            "duration" : 2717
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "htmlBodyParseTest",
-          "uid" : "f44ad36567bf4852",
+          "uid" : "872f08262bdc9ebf",
           "parentUid" : "fe3420463e3682084dd304b7418f27d6",
           "status" : "passed",
           "time" : {
-            "start" : 1629825610489,
-            "stop" : 1629825610878,
-            "duration" : 389
+            "start" : 1629825707327,
+            "stop" : 1629825708088,
+            "duration" : 761
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "noServiceObjectTest",
-          "uid" : "a26bf164c204b356",
+          "uid" : "6fd9706959c6a618",
           "parentUid" : "fe3420463e3682084dd304b7418f27d6",
           "status" : "passed",
           "time" : {
-            "start" : 1629825610882,
-            "stop" : 1629825611117,
-            "duration" : 235
+            "start" : 1629825708090,
+            "stop" : 1629825708718,
+            "duration" : 628
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "retryRequestTest",
-          "uid" : "350652178f9f84e",
+          "uid" : "d161058d58be741",
           "parentUid" : "fe3420463e3682084dd304b7418f27d6",
           "status" : "passed",
           "time" : {
-            "start" : 1629825611120,
-            "stop" : 1629825615634,
-            "duration" : 4514
+            "start" : 1629825708723,
+            "stop" : 1629825715104,
+            "duration" : 6381
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "serviceInitTest",
-          "uid" : "c843da1a172edc5e",
+          "uid" : "d4d1a1ddf81b06ca",
           "parentUid" : "fe3420463e3682084dd304b7418f27d6",
           "status" : "passed",
           "time" : {
-            "start" : 1629825615636,
-            "stop" : 1629825615773,
-            "duration" : 137
+            "start" : 1629825715106,
+            "stop" : 1629825715587,
+            "duration" : 481
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "simpleRestTest",
-          "uid" : "d339d4ad2d460478",
+          "uid" : "3d0bd5973c008604",
           "parentUid" : "fe3420463e3682084dd304b7418f27d6",
           "status" : "passed",
           "time" : {
-            "start" : 1629825615775,
-            "stop" : 1629825615944,
-            "duration" : 169
+            "start" : 1629825715594,
+            "stop" : 1629825716140,
+            "duration" : 546
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "statusTestWithQueryInPath",
-          "uid" : "9bebb85eeedb5d8f",
+          "uid" : "e3bb9835e6bc54dc",
           "parentUid" : "fe3420463e3682084dd304b7418f27d6",
           "status" : "passed",
           "time" : {
-            "start" : 1629825615945,
-            "stop" : 1629825616040,
-            "duration" : 95
+            "start" : 1629825716142,
+            "stop" : 1629825716785,
+            "duration" : 643
           },
           "flaky" : false,
           "newFailed" : false,
@@ -103,26 +103,26 @@
         "name" : "com.epam.jdi.httptests.example.TrelloTests",
         "children" : [ {
           "name" : "assignBoardToOrganization",
-          "uid" : "68c551aa74762c20",
+          "uid" : "5cd6bcbe5fc34cbe",
           "parentUid" : "2faf995795f3097d42c61082083a8a0b",
           "status" : "passed",
           "time" : {
-            "start" : 1629825616051,
-            "stop" : 1629825616928,
-            "duration" : 877
+            "start" : 1629825716796,
+            "stop" : 1629825718090,
+            "duration" : 1294
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "createCardInBoard",
-          "uid" : "6efbd32df3bfa6fa",
+          "uid" : "b3ff17b718ebbfc9",
           "parentUid" : "2faf995795f3097d42c61082083a8a0b",
           "status" : "passed",
           "time" : {
-            "start" : 1629825616929,
-            "stop" : 1629825617984,
-            "duration" : 1055
+            "start" : 1629825718093,
+            "stop" : 1629825720596,
+            "duration" : 2503
           },
           "flaky" : false,
           "newFailed" : false,
@@ -133,13 +133,13 @@
         "name" : "com.epam.jdi.httptests.example.ServiceSettingsTests",
         "children" : [ {
           "name" : "assignBoardToOrganization",
-          "uid" : "ba1cc5e1bc550e1a",
+          "uid" : "10f76aabcb4fcd92",
           "parentUid" : "eeb7d58e7a4b835da1f9a36d9467a06b",
           "status" : "passed",
           "time" : {
-            "start" : 1629825618011,
-            "stop" : 1629825618508,
-            "duration" : 497
+            "start" : 1629825720642,
+            "stop" : 1629825721160,
+            "duration" : 518
           },
           "flaky" : false,
           "newFailed" : false,

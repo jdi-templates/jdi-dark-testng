@@ -1,100 +1,100 @@
 [ {
-  "uid" : "d339d4ad2d460478",
-  "name" : "simpleRestTest",
-  "time" : {
-    "start" : 1629825615775,
-    "stop" : 1629825615944,
-    "duration" : 169
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ba1cc5e1bc550e1a",
-  "name" : "assignBoardToOrganization",
-  "time" : {
-    "start" : 1629825618011,
-    "stop" : 1629825618508,
-    "duration" : 497
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "68c551aa74762c20",
-  "name" : "assignBoardToOrganization",
-  "time" : {
-    "start" : 1629825616051,
-    "stop" : 1629825616928,
-    "duration" : 877
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a26bf164c204b356",
-  "name" : "noServiceObjectTest",
-  "time" : {
-    "start" : 1629825610882,
-    "stop" : 1629825611117,
-    "duration" : 235
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "146b23c2772e36c8",
-  "name" : "cookiesTest",
-  "time" : {
-    "start" : 1629825607791,
-    "stop" : 1629825610380,
-    "duration" : 2589
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6efbd32df3bfa6fa",
-  "name" : "createCardInBoard",
-  "time" : {
-    "start" : 1629825616929,
-    "stop" : 1629825617984,
-    "duration" : 1055
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f44ad36567bf4852",
-  "name" : "htmlBodyParseTest",
-  "time" : {
-    "start" : 1629825610489,
-    "stop" : 1629825610878,
-    "duration" : 389
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9bebb85eeedb5d8f",
+  "uid" : "e3bb9835e6bc54dc",
   "name" : "statusTestWithQueryInPath",
   "time" : {
-    "start" : 1629825615945,
-    "stop" : 1629825616040,
-    "duration" : 95
+    "start" : 1629825716142,
+    "stop" : 1629825716785,
+    "duration" : 643
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "350652178f9f84e",
-  "name" : "retryRequestTest",
+  "uid" : "b3ff17b718ebbfc9",
+  "name" : "createCardInBoard",
   "time" : {
-    "start" : 1629825611120,
-    "stop" : 1629825615634,
-    "duration" : 4514
+    "start" : 1629825718093,
+    "stop" : 1629825720596,
+    "duration" : 2503
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c843da1a172edc5e",
+  "uid" : "55ac4c478b71009",
+  "name" : "cookiesTest",
+  "time" : {
+    "start" : 1629825704506,
+    "stop" : 1629825707223,
+    "duration" : 2717
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10f76aabcb4fcd92",
+  "name" : "assignBoardToOrganization",
+  "time" : {
+    "start" : 1629825720642,
+    "stop" : 1629825721160,
+    "duration" : 518
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4d1a1ddf81b06ca",
   "name" : "serviceInitTest",
   "time" : {
-    "start" : 1629825615636,
-    "stop" : 1629825615773,
-    "duration" : 137
+    "start" : 1629825715106,
+    "stop" : 1629825715587,
+    "duration" : 481
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fd9706959c6a618",
+  "name" : "noServiceObjectTest",
+  "time" : {
+    "start" : 1629825708090,
+    "stop" : 1629825708718,
+    "duration" : 628
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d0bd5973c008604",
+  "name" : "simpleRestTest",
+  "time" : {
+    "start" : 1629825715594,
+    "stop" : 1629825716140,
+    "duration" : 546
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "872f08262bdc9ebf",
+  "name" : "htmlBodyParseTest",
+  "time" : {
+    "start" : 1629825707327,
+    "stop" : 1629825708088,
+    "duration" : 761
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cd6bcbe5fc34cbe",
+  "name" : "assignBoardToOrganization",
+  "time" : {
+    "start" : 1629825716796,
+    "stop" : 1629825718090,
+    "duration" : 1294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d161058d58be741",
+  "name" : "retryRequestTest",
+  "time" : {
+    "start" : 1629825708723,
+    "stop" : 1629825715104,
+    "duration" : 6381
   },
   "status" : "passed",
   "severity" : "normal"
