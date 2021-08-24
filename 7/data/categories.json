@@ -1,39 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "Bad raResponse: Response status: 429 Too Many Requests (CLIENT_ERROR)\nResponse body: {\"message\":\"Rate limit exceeded: requests per interval for API token\",\"error\":\"API_TOKEN_LIMIT_EXCEEDED\"}",
-      "children" : [ {
-        "name" : "assignBoardToOrganization",
-        "uid" : "e7615bbe4c081799",
-        "parentUid" : "c9a97c717a13e01239f73f5f5e6a1e5f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1629809235504,
-          "stop" : 1629809237987,
-          "duration" : 2483
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "createCardInBoard",
-        "uid" : "c30e26b4ce195be1",
-        "parentUid" : "c9a97c717a13e01239f73f5f5e6a1e5f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1629809237990,
-          "stop" : 1629809238164,
-          "duration" : 174
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "c9a97c717a13e01239f73f5f5e6a1e5f"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }
