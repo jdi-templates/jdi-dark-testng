@@ -1,0 +1,282 @@
+{
+  "uid" : "f46b241578892a71",
+  "name" : "retryRequestTest",
+  "fullName" : "com.epam.jdi.httptests.example.ServiceTests.retryRequestTest",
+  "historyId" : "89ea7787dcd2de115b556b96477e27f8",
+  "time" : {
+    "start" : 1629807867959,
+    "stop" : 1629807873392,
+    "duration" : 5433
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "before",
+    "time" : {
+      "start" : 1629807863020,
+      "stop" : 1629807864903,
+      "duration" : 1883
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET https://httpbin.org//status/{status}",
+      "time" : {
+        "start" : 1629807867983,
+        "stop" : 1629807868360,
+        "duration" : 377
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "766572b861603440",
+        "name" : "Request GET https://httpbin.org//status/{status}",
+        "source" : "766572b861603440.json",
+        "type" : "text/html",
+        "size" : 94
+      }, {
+        "uid" : "ad1c3322e65e2b3b",
+        "name" : "Response",
+        "source" : "ad1c3322e65e2b3b.json",
+        "type" : "text/html",
+        "size" : 73
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET https://httpbin.org//status/{status}",
+      "time" : {
+        "start" : 1629807869363,
+        "stop" : 1629807869643,
+        "duration" : 280
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c33873e0c50d8d54",
+        "name" : "Request GET https://httpbin.org//status/{status}",
+        "source" : "c33873e0c50d8d54.json",
+        "type" : "text/html",
+        "size" : 44
+      }, {
+        "uid" : "7e35f3670db484aa",
+        "name" : "Response",
+        "source" : "7e35f3670db484aa.json",
+        "type" : "text/html",
+        "size" : 73
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET https://httpbin.org//status/{status}",
+      "time" : {
+        "start" : 1629807870645,
+        "stop" : 1629807870914,
+        "duration" : 269
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "94b38c2832210bf9",
+        "name" : "Request GET https://httpbin.org//status/{status}",
+        "source" : "94b38c2832210bf9.json",
+        "type" : "text/html",
+        "size" : 44
+      }, {
+        "uid" : "ca8dc381cebaf41f",
+        "name" : "Response",
+        "source" : "ca8dc381cebaf41f.json",
+        "type" : "text/html",
+        "size" : 73
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET https://httpbin.org//status/{status}",
+      "time" : {
+        "start" : 1629807871916,
+        "stop" : 1629807872160,
+        "duration" : 244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "70bd5b0a1fc5a88d",
+        "name" : "Request GET https://httpbin.org//status/{status}",
+        "source" : "70bd5b0a1fc5a88d.json",
+        "type" : "text/html",
+        "size" : 44
+      }, {
+        "uid" : "5b2980e2723bb79d",
+        "name" : "Response",
+        "source" : "5b2980e2723bb79d.json",
+        "type" : "text/html",
+        "size" : 73
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET https://httpbin.org//status/{status}",
+      "time" : {
+        "start" : 1629807873162,
+        "stop" : 1629807873387,
+        "duration" : 225
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8ad3edeee326bfb7",
+        "name" : "Request GET https://httpbin.org//status/{status}",
+        "source" : "8ad3edeee326bfb7.json",
+        "type" : "text/html",
+        "size" : 44
+      }, {
+        "uid" : "bd3d2707ee829cef",
+        "name" : "Response",
+        "source" : "bd3d2707ee829cef.json",
+        "type" : "text/html",
+        "size" : 73
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.jdi.httptests.example.ServiceTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.jdi.httptests.example.ServiceTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "retryRequestTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test suite"
+  }, {
+    "name" : "suite",
+    "value" : "Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.jdi.httptests.example.ServiceTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az173-912"
+  }, {
+    "name" : "thread",
+    "value" : "3018@fv-az173-912.TestNG-test=Tests-1(14)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "d0aeb4c68906b79d",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/6//#testresult/d0aeb4c68906b79d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807767593,
+          "stop" : 1629807773874,
+          "duration" : 6281
+        }
+      }, {
+        "uid" : "e5105a04bd9ddc90",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/6//#testresult/e5105a04bd9ddc90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807666517,
+          "stop" : 1629807670916,
+          "duration" : 4399
+        }
+      }, {
+        "uid" : "bf723c5d2ebc5a1a",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/5//#testresult/bf723c5d2ebc5a1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629807359423,
+          "stop" : 1629807364769,
+          "duration" : 5346
+        }
+      }, {
+        "uid" : "d817bf40c34511a9",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/4//#testresult/d817bf40c34511a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629800153348,
+          "stop" : 1629800158570,
+          "duration" : 5222
+        }
+      }, {
+        "uid" : "84cab6a984fd1d1e",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/3//#testresult/84cab6a984fd1d1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629459932995,
+          "stop" : 1629459938466,
+          "duration" : 5471
+        }
+      }, {
+        "uid" : "c1558060c339f682",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/2//#testresult/c1558060c339f682",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629459506373,
+          "stop" : 1629459512677,
+          "duration" : 6304
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f46b241578892a71.json",
+  "parameterValues" : [ ]
+}
