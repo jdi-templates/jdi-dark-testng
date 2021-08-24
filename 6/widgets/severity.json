@@ -1,100 +1,100 @@
 [ {
-  "uid" : "b8629f5290ddb69",
-  "name" : "statusTestWithQueryInPath",
-  "time" : {
-    "start" : 1629808161839,
-    "stop" : 1629808162291,
-    "duration" : 452
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4c2a95d259f637b9",
-  "name" : "retryRequestTest",
-  "time" : {
-    "start" : 1629808154391,
-    "stop" : 1629808160702,
-    "duration" : 6311
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3531ceff48ad2f69",
-  "name" : "noServiceObjectTest",
-  "time" : {
-    "start" : 1629808153779,
-    "stop" : 1629808154389,
-    "duration" : 610
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5ca8644501d9ce72",
-  "name" : "assignBoardToOrganization",
-  "time" : {
-    "start" : 1629808162305,
-    "stop" : 1629808163701,
-    "duration" : 1396
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b42f0a1c8cab65bd",
-  "name" : "createCardInBoard",
-  "time" : {
-    "start" : 1629808163719,
-    "stop" : 1629808165598,
-    "duration" : 1879
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c8215bd9194fcc10",
-  "name" : "serviceInitTest",
-  "time" : {
-    "start" : 1629808160704,
-    "stop" : 1629808161307,
-    "duration" : 603
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "64932e65e9bc04d3",
-  "name" : "cookiesTest",
-  "time" : {
-    "start" : 1629808150002,
-    "stop" : 1629808152808,
-    "duration" : 2806
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "146a6115445362a7",
-  "name" : "assignBoardToOrganization",
-  "time" : {
-    "start" : 1629808165626,
-    "stop" : 1629808166370,
-    "duration" : 744
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "912ded3bd285784d",
-  "name" : "simpleRestTest",
-  "time" : {
-    "start" : 1629808161312,
-    "stop" : 1629808161836,
-    "duration" : 524
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5294f97f477ed98a",
+  "uid" : "a89cb97a6c2526c0",
   "name" : "htmlBodyParseTest",
   "time" : {
-    "start" : 1629808152976,
-    "stop" : 1629808153777,
-    "duration" : 801
+    "start" : 1629808252370,
+    "stop" : 1629808252867,
+    "duration" : 497
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e635acbd30b6b94",
+  "name" : "statusTestWithQueryInPath",
+  "time" : {
+    "start" : 1629808257981,
+    "stop" : 1629808258080,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7798cbb0ab353ab7",
+  "name" : "retryRequestTest",
+  "time" : {
+    "start" : 1629808253135,
+    "stop" : 1629808257681,
+    "duration" : 4546
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "921b21a9181c0698",
+  "name" : "noServiceObjectTest",
+  "time" : {
+    "start" : 1629808252872,
+    "stop" : 1629808253132,
+    "duration" : 260
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f94585e541ec58",
+  "name" : "assignBoardToOrganization",
+  "time" : {
+    "start" : 1629808258105,
+    "stop" : 1629808259507,
+    "duration" : 1402
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3fe9670d52719f2",
+  "name" : "serviceInitTest",
+  "time" : {
+    "start" : 1629808257685,
+    "stop" : 1629808257827,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5135d1292e17992d",
+  "name" : "assignBoardToOrganization",
+  "time" : {
+    "start" : 1629808260763,
+    "stop" : 1629808261300,
+    "duration" : 537
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ea9c13bbe24f318",
+  "name" : "cookiesTest",
+  "time" : {
+    "start" : 1629808249328,
+    "stop" : 1629808252204,
+    "duration" : 2876
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "553c5d41fb0ac6ef",
+  "name" : "createCardInBoard",
+  "time" : {
+    "start" : 1629808259508,
+    "stop" : 1629808260728,
+    "duration" : 1220
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4595f52f6889ea91",
+  "name" : "simpleRestTest",
+  "time" : {
+    "start" : 1629808257828,
+    "stop" : 1629808257980,
+    "duration" : 152
   },
   "status" : "passed",
   "severity" : "normal"
