@@ -1,0 +1,101 @@
+[ {
+  "uid" : "7ccc5d78525d35d",
+  "name" : "simpleRestTest",
+  "time" : {
+    "start" : 1629828269778,
+    "stop" : 1629828270222,
+    "duration" : 444
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f4ea4a8ca768b2e4",
+  "name" : "assignBoardToOrganization",
+  "time" : {
+    "start" : 1629828273912,
+    "stop" : 1629828274570,
+    "duration" : 658
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6aa168e5348bb0f",
+  "name" : "statusTestWithQueryInPath",
+  "time" : {
+    "start" : 1629828270225,
+    "stop" : 1629828270656,
+    "duration" : 431
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1594f4f8ac140c2c",
+  "name" : "cookiesTest",
+  "time" : {
+    "start" : 1629828258500,
+    "stop" : 1629828261272,
+    "duration" : 2772
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41a4a85f76a244b9",
+  "name" : "htmlBodyParseTest",
+  "time" : {
+    "start" : 1629828261349,
+    "stop" : 1629828262249,
+    "duration" : 900
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2643851b7e477ebd",
+  "name" : "createCardInBoard",
+  "time" : {
+    "start" : 1629828271833,
+    "stop" : 1629828273889,
+    "duration" : 2056
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4806e53250f3abb8",
+  "name" : "noServiceObjectTest",
+  "time" : {
+    "start" : 1629828262252,
+    "stop" : 1629828262900,
+    "duration" : 648
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2cc6c51e6c7ecd5",
+  "name" : "serviceInitTest",
+  "time" : {
+    "start" : 1629828269222,
+    "stop" : 1629828269771,
+    "duration" : 549
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98b7d6bf485527c6",
+  "name" : "retryRequestTest",
+  "time" : {
+    "start" : 1629828262902,
+    "stop" : 1629828269220,
+    "duration" : 6318
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7940188ea107fc",
+  "name" : "assignBoardToOrganization",
+  "time" : {
+    "start" : 1629828270669,
+    "stop" : 1629828271830,
+    "duration" : 1161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
