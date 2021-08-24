@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 17,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "e20d8e6eb2feb1c8",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/e20d8e6eb2feb1c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629809234821,
+        "stop" : 1629809235473,
+        "duration" : 652
+      }
+    }, {
       "uid" : "b9bcef7b04f41f97",
       "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/b9bcef7b04f41f97",
       "status" : "passed",
@@ -157,13 +166,23 @@
   "10c38ed1a2f8533bee6e83162fef35ae" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 16,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "e7615bbe4c081799",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/e7615bbe4c081799",
+      "status" : "broken",
+      "statusDetails" : "Bad raResponse: Response status: 429 Too Many Requests (CLIENT_ERROR)\nResponse body: {\"message\":\"Rate limit exceeded: requests per interval for API token\",\"error\":\"API_TOKEN_LIMIT_EXCEEDED\"}",
+      "time" : {
+        "start" : 1629809235504,
+        "stop" : 1629809237987,
+        "duration" : 2483
+      }
+    }, {
       "uid" : "77cc804defac1fa2",
       "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/77cc804defac1fa2",
       "status" : "passed",
@@ -314,11 +333,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 17,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "9bdcd2e783ff30f0",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/9bdcd2e783ff30f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629809227485,
+        "stop" : 1629809233804,
+        "duration" : 6319
+      }
+    }, {
       "uid" : "36fad276506154a9",
       "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/36fad276506154a9",
       "status" : "passed",
@@ -469,11 +497,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 17,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "cbeee8c59c3dc0dc",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/cbeee8c59c3dc0dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629809222423,
+        "stop" : 1629809225907,
+        "duration" : 3484
+      }
+    }, {
       "uid" : "76613ea893a99f91",
       "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/76613ea893a99f91",
       "status" : "passed",
@@ -624,11 +661,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 17,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "94031ec9a43d78bb",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/94031ec9a43d78bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629809226028,
+        "stop" : 1629809226851,
+        "duration" : 823
+      }
+    }, {
       "uid" : "f5657c0874658b5f",
       "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/f5657c0874658b5f",
       "status" : "passed",
@@ -779,11 +825,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 17,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "c9602fa30df5267a",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/c9602fa30df5267a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629809238199,
+        "stop" : 1629809238979,
+        "duration" : 780
+      }
+    }, {
       "uid" : "e45bb645e81154b2",
       "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/e45bb645e81154b2",
       "status" : "passed",
@@ -934,11 +989,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 17,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "af6b5b39583cada4",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/af6b5b39583cada4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629809234304,
+        "stop" : 1629809234819,
+        "duration" : 515
+      }
+    }, {
       "uid" : "371b313533a4fa18",
       "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/371b313533a4fa18",
       "status" : "passed",
@@ -1089,11 +1153,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 17,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "b5db3bbedeecb21f",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/b5db3bbedeecb21f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629809233807,
+        "stop" : 1629809234302,
+        "duration" : 495
+      }
+    }, {
       "uid" : "683d274fcecfe102",
       "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/683d274fcecfe102",
       "status" : "passed",
@@ -1244,11 +1317,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 17,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "df303cffd2732ad4",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/df303cffd2732ad4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629809226853,
+        "stop" : 1629809227480,
+        "duration" : 627
+      }
+    }, {
       "uid" : "2aa11f5acc111d2c",
       "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/2aa11f5acc111d2c",
       "status" : "passed",
@@ -1397,13 +1479,23 @@
   "1e3c5724dae2b269fcc43e3892e32ba2" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 16,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "c30e26b4ce195be1",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/c30e26b4ce195be1",
+      "status" : "broken",
+      "statusDetails" : "Bad raResponse: Response status: 429 Too Many Requests (CLIENT_ERROR)\nResponse body: {\"message\":\"Rate limit exceeded: requests per interval for API token\",\"error\":\"API_TOKEN_LIMIT_EXCEEDED\"}",
+      "time" : {
+        "start" : 1629809237990,
+        "stop" : 1629809238164,
+        "duration" : 174
+      }
+    }, {
       "uid" : "27e459391e979d91",
       "reportUrl" : "https://jdi-templates.github.io/jdi-dark-testng-template/7//#testresult/27e459391e979d91",
       "status" : "passed",
