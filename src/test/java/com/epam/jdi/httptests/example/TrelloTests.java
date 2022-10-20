@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import static com.epam.http.requests.ServiceInit.init;
-import static com.epam.jdi.tools.LinqUtils.map;
+import static com.jdiai.tools.LinqUtils.map;
 import static org.testng.Assert.assertTrue;
 
 /**
