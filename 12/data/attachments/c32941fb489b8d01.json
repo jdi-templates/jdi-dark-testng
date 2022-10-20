@@ -1,0 +1,5 @@
+GET https://api.trello.com/1/organizations/{id}/boards  [
+contentType: application/json, 
+queryParams: [key=3445103a21ddca2619eaceb0e833d0db, token=a9b951262e529821308e7ecbc3e4b7cfb14a24fef5ea500a68c69d374009fcc0], 
+path: /organizations/{id}/boards, 
+pathParams: [id=6351519073bfc501022bbd8f]]
