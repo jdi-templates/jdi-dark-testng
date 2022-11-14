@@ -1,0 +1,2 @@
+Response status: 400 Bad Request (CLIENT_ERROR)
+Response body: {"message":"Display Name must be at least 1 character","error":"ERROR"}
