@@ -1,4 +1,0 @@
-GET https://httpbin.org//status/{status}?q={value}  [
-path: /status/{status}?q={value}, 
-pathParams: [status=503], 
-queryParams: [q=some]]

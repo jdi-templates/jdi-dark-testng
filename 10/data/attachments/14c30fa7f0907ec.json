@@ -1,3 +1,0 @@
-GET https://httpbin.org//status/{status}  [
-path: /status/{status}, 
-pathParams: [status=500]]

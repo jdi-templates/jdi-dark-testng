@@ -1,4 +1,0 @@
-POST https://api.trello.com/1/cards  [
-contentType: application/json, 
-queryParams: [key=3445103a21ddca2619eaceb0e833d0db, token=a9b951262e529821308e7ecbc3e4b7cfb14a24fef5ea500a68c69d374009fcc0], 
-body: Card(name:JDI Test Card number 1294021789; idList:635157b8aa223e00d9062d29; idBoard:635157b81ebf820099544dd1; closed:false; manualCoverAttachment:false; subscribed:false; pos:0)]

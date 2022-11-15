@@ -1,3 +1,0 @@
-GET   [
-uri: https://httpbin.org/get, 
-headers: [Name=Roman, Id=TestTest]]

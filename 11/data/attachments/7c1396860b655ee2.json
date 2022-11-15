@@ -1,8 +1,0 @@
-Response status: 200 OK (OK)
-Response body: {
-  "cookies": {
-    "additionalCookie": "test", 
-    "hello": "world", 
-    "session_id": "1234"
-  }
-}

@@ -1,4 +1,0 @@
-POST https://api.trello.com/1/boards  [
-contentType: application/json, 
-queryParams: [key=3445103a21ddca2619eaceb0e833d0db, token=a9b951262e529821308e7ecbc3e4b7cfb14a24fef5ea500a68c69d374009fcc0], 
-body: Board(name:JDI Test Board number 2002361128; closed:false; pinned:false; invited:false; subscribed:false; lists:[])]
