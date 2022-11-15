@@ -1,0 +1,2 @@
+Response status: 429 Too Many Requests (CLIENT_ERROR)
+Response body: {"message":"Rate limit exceeded: database time for API token","error":"API_TOKEN_DB_LIMIT_EXCEEDED"}
